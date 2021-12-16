@@ -4,4 +4,4 @@ Welcome to the Chargify Developer docs. This serves as reference to get started 
 
 ### Development
 
-If you are a Chargify developer and need to make changes to the API documentation, please refer to our internal documentation on Stoplight Studio.
+If you are a Chargify developer and need to make changes to the Developer documentation, please refer to our internal documentation on Stoplight Studio.
