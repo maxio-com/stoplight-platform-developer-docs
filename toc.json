@@ -130,8 +130,13 @@
       "items": [
         {
           "type": "item",
-          "title": "2021-12-16",
-          "uri": "docs/announcements/2021-12-16.md"
+          "title": "Overview",
+          "uri": "docs/announcements/Overview.md"
+        },
+        {
+          "type": "item",
+          "title": "2021-12-16 Current Vault Validation",
+          "uri": "docs/announcements/2021-12-16-Current-Vault-Validation.md"
         }
       ]
     },
