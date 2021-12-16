@@ -10,7 +10,7 @@ Learn how to use API authentication to communicate directly with Chargify from a
 
 There are two methods of authentication, depending on what you are accessing:
 
-* [Chargify API](https://chargify.stoplight.io/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api) 
+* [Chargify API](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api) 
 * [Chargify Direct](./ZG9jOjE0NjAzNDE3-introduction) (deprecated in favor of [Chargify.js](./ZG9jOjE0NjAzNDI0-overview))
 
 Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see ["Obtaining Credentials"](https://help.chargify.com/integrations/api-keys-chargify-direct.html).
@@ -41,7 +41,7 @@ curl --request GET \
   --header 'content-type: application/json'
 ```
 
-For more information about API authentication, please see our [API documentation/example](https://chargify.stoplight.io/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#authentication).
+For more information about API authentication, please see our [API documentation/example](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#authentication).
 
 ## Chargify Direct
 

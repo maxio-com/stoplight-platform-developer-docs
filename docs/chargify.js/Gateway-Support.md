@@ -17,9 +17,9 @@ use the Square JavaScript library in your page, then either
 * use the Square API to create the card in Square using the nonce, then supply both `customer_vault_token` and `vault_token`
 
 when
-[creating a payment profile](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile)
+[creating a payment profile](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile)
 or
-[creating a subscription](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzODg-create-subscription) in Chargify.
+[creating a subscription](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription) in Chargify.
 
 ## Extra Support for Deletion
 

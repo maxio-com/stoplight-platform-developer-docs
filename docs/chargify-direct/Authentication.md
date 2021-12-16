@@ -111,4 +111,4 @@ Please, review the information on the [upgrade notice](https://help.chargify.com
 
 ## Troubleshooting: Request blocked with `422` response code
 
-Chargify will block requests and return a `422` response code and body with errors if your account is in one of a few certain scenarios. You can read more about this in our [API documentation](https://chargify.stoplight.io/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#api-access-limitations)
+Chargify will block requests and return a `422` response code and body with errors if your account is in one of a few certain scenarios. You can read more about this in our [API documentation](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#api-access-limitations)

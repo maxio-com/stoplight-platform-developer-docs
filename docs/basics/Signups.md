@@ -88,7 +88,7 @@ For example, the following `POST` to the subscription create API endpoint would 
 }
 ```
 
-For more information, see [API Documentation for Creating a Subscription](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzODg-create-subscription).
+For more information, see [API Documentation for Creating a Subscription](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription).
 
 For more advanced subscription creation scenarios, please see [Advanced Subscription Creation Examples](../advanced/Expert-Usage.md#advanced-signup-examples).
 
@@ -156,7 +156,7 @@ In the following example, the existing customer with `reference` (shown as `cust
   }
 }
 ```
-For more information about the `customer_reference` and `customer_id` values, please see the [API documentation](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzODg-create-subscription).
+For more information about the `customer_reference` and `customer_id` values, please see the [API documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription).
 
 Chargify Direct can also be used to create an additional subscription for an existing customer by including the customer reference or customer ID. The subscription can optionally re-use an existing payment profile by including a payment profile ID belonging to that customer.
 
@@ -210,4 +210,4 @@ For deeper learning about how components function within Chargify, we recommend 
 # Next Steps
 
 * Customizing your billing with [components](./Components.md)
-* API documentation for [subscriptions](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzODg-create-subscription)
+* API documentation for [subscriptions](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription)

@@ -38,4 +38,4 @@ For more information about our PCI auditing and related updates, please see [Wha
 
 # API Reference
 
-The complete API reference documentation is available [here](https://chargify.stoplight.io/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api).
+The complete API reference documentation is available [here](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api).

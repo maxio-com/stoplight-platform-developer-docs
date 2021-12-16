@@ -197,7 +197,7 @@ Updating a subscription’s payment profile with new information.
 
 Resource URI: `https://api.chargify.com/api/v2/subscriptions/<subscription.id>/card_update`
 
-See API: [Card Update](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzNTg-update-payment-profile) for more details.
+See API: [Card Update](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTg-update-payment-profile) for more details.
 
 ## Resource Parameters
 

@@ -30,14 +30,14 @@ You will receive all the current information about the subscription, including (
  - Customer details
  - Payment details
 
-For more detailed information, see API documentation on [reading the subscription](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDg0MDM-read-subscription).
+For more detailed information, see API documentation on [reading the subscription](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDg0MDM-read-subscription).
 
 ### Best Practices
 
 The following are some best practices that we would suggest regarding using API and how you synchronize your application with your Chargify data:
 
 1. Your application should try and not depend on another service to control access directly. Should your API call fail, for any reason, then your customer might not receive the best user experience depending on how you've implemented this.
-2. You should try and limit the direct calls to Chargify if (and when) possible as there is a limit to how fast (and how often) the Chargify API will respond to very quick and numerous API calls. For more information, see [limits and blocks](https://chargify.stoplight.io/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#api-access-limitations).
+2. You should try and limit the direct calls to Chargify if (and when) possible as there is a limit to how fast (and how often) the Chargify API will respond to very quick and numerous API calls. For more information, see [limits and blocks](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#api-access-limitations).
 
 ## Webhooks
 
@@ -132,4 +132,4 @@ The following are some best practices that we would suggest regarding webhooks:
 
 # Next Steps
 - [Managing](./Subscriptions.md) your subscriptions
-- API documentation for [webhooks](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgyNjU-create-endpoint)
+- API documentation for [webhooks](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgyNjU-create-endpoint)

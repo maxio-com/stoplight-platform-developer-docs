@@ -73,9 +73,9 @@ A signup API payload passing a Chargify.js token would resemble the following; a
 
 Here are some example API calls for signups that may be helpful:
 
-+ [Request body examples](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzODg-create-subscription) 
++ [Request body examples](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription) 
 
 These API calls pertain to handling card updates, which involves creating a new payment profile and swapping it to the default.
 
-+ [Creating a new payment profile](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile)
-+ [Changing the default payment profile](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDg0MzQ-change-default-payment-profile)
++ [Creating a new payment profile](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile)
++ [Changing the default payment profile](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDg0MzQ-change-default-payment-profile)

@@ -14,7 +14,7 @@ Here are some tips and best-practices to help keep both your site and ours runni
 
 ## Getting Subscription States
 
-You likely want to check if your customer has an active account, has cancelled, or is behind on his/her payments. The best approach is to keep a local cached copy of the subscription’s state in your own database. You can use [Webhooks](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgyNjU-create-endpoint) to keep up-to-date in near real-time on any changes that occur. This keeps your website up, reduces your coupling to Chargify, and ensures both sites remain as fast as possible.
+You likely want to check if your customer has an active account, has cancelled, or is behind on his/her payments. The best approach is to keep a local cached copy of the subscription’s state in your own database. You can use [Webhooks](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgyNjU-create-endpoint) to keep up-to-date in near real-time on any changes that occur. This keeps your website up, reduces your coupling to Chargify, and ensures both sites remain as fast as possible.
 
 Avoid querying Chargify in-line as part of a customer’s request to your site. Doing so could result in:
 
@@ -24,7 +24,7 @@ Avoid querying Chargify in-line as part of a customer’s request to your site. 
 
 ## Synchronizing Your Database
 
-Normally you should keep your local customer database in sync by using [webhooks](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgyNjU-create-endpoint). But if you think your database has become out of sync with Chargify, then using the API to check the state of all subscriptions may be the only way to ensure consistency.
+Normally you should keep your local customer database in sync by using [webhooks](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgyNjU-create-endpoint). But if you think your database has become out of sync with Chargify, then using the API to check the state of all subscriptions may be the only way to ensure consistency.
 
 It’s perfectly okay to do this as needed. But it should generally only be relied upon in exceptional circumstances or for periodic reconciliation (usually no more than once a month).
 
@@ -41,8 +41,8 @@ Instead:
 
 For more information on reporting component usage or allocations, please see the specific section for the type of component used:
 
-+ [API docs for reporting metered usage](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzODQ-create-usage)
-+ [API docs for allocating quantity-based components](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzNzg-allocate-component)
++ [API docs for reporting metered usage](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODQ-create-usage)
++ [API docs for allocating quantity-based components](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNzg-allocate-component)
 
 ## Downloading Bulk Data
 
@@ -76,7 +76,7 @@ If you receive a `429 Too Many Requests` response, your code should be prepared 
 
 ### Account-based Blocks
 
-There are a few scenarios that may end up in causing an API request to be blocked even with correct credentials. You can read about them [here](https://chargify.stoplight.io/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#api-access-limitations). If you have a request blocked with a `422` status code and an error message, it may be due to this account-based blocking.
+There are a few scenarios that may end up in causing an API request to be blocked even with correct credentials. You can read about them [here](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#api-access-limitations). If you have a request blocked with a `422` status code and an error message, it may be due to this account-based blocking.
 
 
 ### Prioritization of Endpoints

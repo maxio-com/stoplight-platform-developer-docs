@@ -38,7 +38,7 @@ An example of our input attributes might look like the following:
 }
 ```
 
-That data should be posted to the [Product Family Create](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzNDI-create-product-family) API Endpoint.
+That data should be posted to the [Product Family Create](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNDI-create-product-family) API Endpoint.
 
 A simple curl example would be the following: 
 
@@ -48,7 +48,7 @@ curl -u <API_KEY>:X -H Accept:application/json -d @product_family.json -X POST h
 
 To create a product family using the application, please see the following documentation: [Creating Product Families](https://help.chargify.com/products/product-families.html#creating-product-families)
 
-Please see [API Documentation](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzMzY-create-product) for complete listing of input/output schema along with code examples in multiple programming languages.
+Please see [API Documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) for complete listing of input/output schema along with code examples in multiple programming languages.
 
 ## Product
 
@@ -75,7 +75,7 @@ You can create a product using the API, like so:
 }
 ```
 
-That data should be posted to the [Product Create](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzMzY-create-product) API Endpoint.
+That data should be posted to the [Product Create](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) API Endpoint.
 
 To create a product family using the Admin UI, please see the following documentation: [Creating Product Families](https://help.chargify.com/products/product-families.html#creating-product-families)
 

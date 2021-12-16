@@ -38,7 +38,7 @@ If you need to display component pricing to your customers, we recommend caching
 For more information on components, please see the following:
 
  - About [components](https://help.chargify.com/products/product-components.html)
- - Creating components [via the API](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzMjA-create-component)
+ - Creating components [via the API](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMjA-create-component)
 
 ## Usage/Allocation
 
@@ -67,5 +67,5 @@ Components can be used in a huge number of varying ways to cover your business m
 
 # Next Steps
 - [Managing](./Subscriptions.md) your subscriptions
-- API documentation for [components](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzMjA-create-component), [usage](https://chargify.stoplight.io/docs/api-docs/b3A6MTQxMDgzODQ-create-usage) or [allocations](https://chargify.stoplight.io/docs/api-docs/c2NoOjE0MTA4MjE4-create-allocation)
+- API documentation for [components](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMjA-create-component), [usage](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODQ-create-usage) or [allocations](https://developers.chargify.com/docs/api-docs/c2NoOjE0MTA4MjE4-create-allocation)
 
