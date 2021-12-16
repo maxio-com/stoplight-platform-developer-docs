@@ -8,9 +8,9 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "chargify/stoplight-platform-developer-docs"
+          source_repo: "git@github.com:chargify/stoplight-platform-developer-docs.git"
           source_branch: "main"
-          destination_repo: "chargify/developer-docs"
+          destination_repo: "git@github.com:chargify/developer-docs.git"
           destination_branch: "main"
           source_ssh_private_key: ${{ secrets.SOURCE_SSH_PRIVATE_KEY }}
           destination_ssh_private_key: ${{ secrets.DESTINATION_SSH_PRIVATE_KEY }}
