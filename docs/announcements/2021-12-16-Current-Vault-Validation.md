@@ -1,4 +1,4 @@
-# Validation of current_vault in Payment Profile for non Multi Gateway sites
+# 2021-12-16 Current Vault Validation
 
 Between approximately 3:30 AM on November 9, 2021 and 2:00 PM on November 10, 2021, the value of `current_vault` was being validated to see if it matched one of the gateways configured for the site.
 

@@ -137,6 +137,51 @@
           "type": "item",
           "title": "2021-12-16 Current Vault Validation",
           "uri": "docs/announcements/2021-12-16-Current-Vault-Validation.md"
+        },
+        {
+          "type": "item",
+          "title": "2021-11-23 Issue Service Credit Response Body Change",
+          "uri": "docs/announcements/2021-11-23-Issue-Service-Credit-Response-Body-Change.md"
+        },
+        {
+          "type": "item",
+          "title": "2021-11-18 Renewal Preview Returns Free Non-Zero Components",
+          "uri": "docs/announcements/2021-11-18-Renewal-Preview-Returns-Free-Non-Zero-Components.md"
+        },
+        {
+          "type": "item",
+          "title": "2021-11-05 Payment Collection Validation Changes",
+          "uri": "docs/announcements/2021-11-05-Payment-Collection-Validation-Changes.md"
+        },
+        {
+          "type": "item",
+          "title": "2021-10-01 Update Price Point Prices Error Response Code Change",
+          "uri": "docs/announcements/2021-10-01-Update-Price-Point-Prices-Error-Response-Code-Change.md"
+        },
+        {
+          "type": "item",
+          "title": "2021-09-13 Subscription Reactivation Payment Decline Error Change",
+          "uri": "docs/announcements/2021-09-13-Subscription-Reactivation-Payment-Decline-Error-Change.md"
+        },
+        {
+          "type": "item",
+          "title": "2021-02-12 Subscription Reactivation Behavior Change",
+          "uri": "docs/announcements/2021-02-12-Subscription-Reactivation-Behavior-Change.md"
+        },
+        {
+          "type": "item",
+          "title": "2020-12-18 Changes to date_field Validation",
+          "uri": "docs/announcements/2020-12-18-Changes-to-date_field-Validation.md"
+        },
+        {
+          "type": "item",
+          "title": "2020-07-13 API Subscriptions XML Response Change",
+          "uri": "docs/announcements/2020-07-13-API-Subscriptions-XML-Response-Change.md"
+        },
+        {
+          "type": "item",
+          "title": "2020-04-20 New API Authentication",
+          "uri": "docs/announcements/2020-04-20-New-API-Authentication.md"
         }
       ]
     },
