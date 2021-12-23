@@ -13,7 +13,7 @@ Components allow you to introduce additional “line items” to your products t
  1. [Creating](#creating-components) components
  2. The [usage/allocation](#usageallocation) of components
 
-For more information about components, see our [component](https://help.chargify.com/products/product-components.html) documentation.
+For more information about components, see our [component](https://chargify.zendesk.com/hc/en-us/articles/4407755865883) documentation.
 
 ## Creating Components
 
@@ -37,7 +37,7 @@ If you need to display component pricing to your customers, we recommend caching
 
 For more information on components, please see the following:
 
- - About [components](https://help.chargify.com/products/product-components.html)
+ - About [components](https://chargify.zendesk.com/hc/en-us/articles/4407755865883)
  - Creating components [via the API](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMjA-create-component)
 
 ## Usage/Allocation

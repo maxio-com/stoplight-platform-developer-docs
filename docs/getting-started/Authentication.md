@@ -13,7 +13,7 @@ There are two methods of authentication, depending on what you are accessing:
 * [Chargify API](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api) 
 * [Chargify Direct](./ZG9jOjE0NjAzNDE3-introduction) (deprecated in favor of [Chargify.js](./ZG9jOjE0NjAzNDI0-overview))
 
-Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see ["Obtaining Credentials"](https://help.chargify.com/integrations/api-keys-chargify-direct.html).
+Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see ["Obtaining Credentials"](https://chargify.zendesk.com/hc/en-us/articles/4407728073371).
 
 For most integrations, the API will be the easiest to implement. Chargify Direct is a method of very securely creating subscriptions where the information is posted directly to Chargify and none of the payment information is passed through your code. Your requirements will dictate the need to use one or the other (or both).
 
@@ -21,7 +21,7 @@ For most integrations, the API will be the easiest to implement. Chargify Direct
 
 The first method of interaction is through the API. API Authentication is implemented as [HTTP Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) over TLS (HTTPS).
 
-Your API login credentials are not the same as the credentials you use to log in to the web interface. You must obtain your API credentials separately, and you must connect to the API via TLS 1.2 (or better) as of [January 2016.](https://help.chargify.com/announcements/tls-upgrade-notice.html)
+Your API login credentials are not the same as the credentials you use to log in to the web interface. You must obtain your API credentials separately, and you must connect to the API via TLS 1.2 (or better).
 
 One of the most common calls you will make via the API is to retrieve a list of subscriptions to retrieve additional information, such as the status of a specific subscription. A simple way to authenticate is to use the API Key as the _username_ and "X" as the _password_, like the following:
 

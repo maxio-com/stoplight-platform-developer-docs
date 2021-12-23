@@ -46,7 +46,7 @@ For more information on reporting component usage or allocations, please see the
 
 ## Downloading Bulk Data
 
-Periodically exporting transaction, subscription, or customer data is a common use case. When possible, we recommend using the built-in [export](https://help.chargify.com/reports/exporting-data.html) functions inside Chargify to generate reports and download the data. This can often be much faster and can significantly lower your API usage.
+Periodically exporting transaction, subscription, or customer data is a common use case. When possible, we recommend using the built-in [export](https://chargify.zendesk.com/hc/en-us/articles/4407840381851) functions inside Chargify to generate reports and download the data. This can often be much faster and can significantly lower your API usage.
 
 ## About Limits & Blocks
 
@@ -91,5 +91,5 @@ Each endpoint is different within Chargify. Expensive endpoints have lower limit
 
 Chargify imposes a cut-off time of 120 seconds for all requests to all endpoints. It's important to note that when you make requests for specific actions, Chargify is also sending these requests off to your associated gateway. If a request is not processed by the combination of Chargify and your gateway within the 120 second guideline, the request will time out. 
 
-Please keep in mind that if you encounter a timeout issue, it is worth inspecting your gateway's [current status.](https://help.chargify.com/payment-gateways/gateway-documentation.html) This is also important to do if you feel there is a processing issue outside of Chargify's control is affecting your requests. 
+Please keep in mind that if you encounter a timeout issue, it is worth inspecting your gateway's [current status.](https://chargify.zendesk.com/hc/en-us/articles/4407761766683) This is also important to do if you feel there is a processing issue outside of Chargify's control is affecting your requests. 
 

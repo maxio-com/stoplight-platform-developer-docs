@@ -24,7 +24,7 @@ From here you can:
 
 To begin, create a site (make sure to put it in test mode) and pick a subdomain that you will remember for use in your API calls.
 
-For more information about sites, including: switching sites, clearing site data, cloning - please see [this documentation](https://help.chargify.com/sites/sites-intro.html).
+For more information about sites, including: switching sites, clearing site data, cloning - please see [this documentation](https://chargify.zendesk.com/hc/en-us/articles/4407870738587).
 
 ## Site API Subdomain
 
@@ -54,7 +54,7 @@ Clearing your site data can be done in the following methods:
 
 ### Clearing via Website
 
-To clear your site data via the website, please see the [following](https://help.chargify.com/sites/clearing-site-data.html).
+To clear your site data via the website, please see the [following](https://chargify.zendesk.com/hc/en-us/articles/4407864367387).
 
 ### Clearing via API
 
