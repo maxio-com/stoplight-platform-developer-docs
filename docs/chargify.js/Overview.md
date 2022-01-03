@@ -232,13 +232,15 @@ When an error occurs on the back-end side, the `error` callback is invoked with 
 
 ## Single Page Applications
 
-As of 2019-02-05 Chargify.js works with reactive frameworks like **[React](https://reactjs.org)** or **[Angular](https://angularjs.org)**.
+As of 2019-02-05 Chargify.js works with reactive frameworks like **[React](https://reactjs.org)**, **[Angular](https://angularjs.org)** or **[Vue](https://vuejs.org)**.
 
 We have published two repositories with sample apps that demonstrate how to use Chargify.js with those frameworks:
 
 * [React example app](https://github.com/chargify/chargify-js-react-example)
 
 * [AngularJS example app](https://github.com/chargify/chargify-js-angular-example)
+
+* [Vue example app](https://github.com/chargify/chargify-js-vue-example)
 
 ## Hosting and Technical Considerations
 
