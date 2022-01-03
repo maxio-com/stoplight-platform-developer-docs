@@ -25,7 +25,19 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2021-06-17** **latest**
+* **2022-01-03** **latest**
+  * [bugfix] Update options instead of removing select for dropdowns to keep validation
+* **2021-10-28**
+  * [bugfix] Fix live/on-submit validation interaction
+* **2021-09-16**
+  * [feature] Add optional requirement on billing address for GoCardless
+* **2021-09-06**
+  * [feature] Add Checkout.com 3D Secure support
+* **2021-07-05**
+  * [internal] Display proper error message for invalid api usage for GoCardless
+* **2021-06-23**
+  * [bugfix] Revert move more logic into main iframe (fixes issue with 2021-06-17)
+* **2021-06-17**
   * [internal] Move more logic into main iframe
 * **2021-05-27**
   * [feature] Add live validation and input formatting for the credit card number
