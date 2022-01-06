@@ -23,19 +23,19 @@ When creating a signup, you must specify a product, customer, and payment_profil
 
 ## Taxable Subscriptions
 
-If your intent is to charge your subscribers tax via [Avalara Taxes](https://help.chargify.com/taxes/avalara-managed-sales-tax.html) or [Custom Taxes](https://help.chargify.com/taxes/custom-taxes.html), there are a few considerations to be made regarding collecting subscription data. For subscribers to be eligible to be taxed, the following information for the `customer` object or `payment_profile` object must by supplied:
+If your intent is to charge your subscribers tax via [Avalara Taxes](https://chargify.zendesk.com/hc/en-us/articles/4407904217755) or [Custom Taxes](https://chargify.zendesk.com/hc/en-us/articles/4407911887771), there are a few considerations to be made regarding collecting subscription data. For subscribers to be eligible to be taxed, the following information for the `customer` object or `payment_profile` object must by supplied:
 
-+ A subscription to a [taxable product](https://help.chargify.com/products/product-editing.html#tax-settings)
-+ [Full valid billing or shipping address](https://help.chargify.com/taxes/avalara-managed-sales-tax.html#full-address-required-for-taxable-subscriptions) to identify the tax locale
-+ The portion of the address that houses the [state information](https://help.chargify.com/taxes/avalara-managed-sales-tax.html#required-state-format-for-taxable-subscriptions) of either adddress must adhere to the ISO standard of a 2-3 character limit/format.
-+ The portion of the address that houses the [country information](https://help.chargify.com/taxes/avalara-managed-sales-tax.html#required-country-format-for-taxable-subscriptions) must adhere to the ISO standard of a 2 character limit/format.
++ A subscription to a [taxable product](https://chargify.zendesk.com/hc/en-us/articles/4407762386203#tax-settings)
++ [Full valid billing or shipping address](https://chargify.zendesk.com/hc/en-us/articles/4407904217755#full-address-required-for-taxable-subscriptions) to identify the tax locale
++ The portion of the address that houses the [state information](https://chargify.zendesk.com/hc/en-us/articles/4407904217755#required-state-format-for-taxable-subscriptions) of either adddress must adhere to the ISO standard of a 2-3 character limit/format.
++ The portion of the address that houses the [country information](https://chargify.zendesk.com/hc/en-us/articles/4407904217755#required-country-format-for-taxable-subscriptions) must adhere to the ISO standard of a 2 character limit/format.
 
 + **Example: Full country name, such as "United States" is not acceptable, use US.**
 + **Example: Full state name, such as "Idaho", use ID**
 
 ## Signup Details
 
-The product may be specified by either `product[id]` or by `product[handle]`, or, if signing up from an [offer](https://help.chargify.com/offers/offers-introduction.html), an `offer_id`.
+The product may be specified by either `product[id]` or by `product[handle]`, or, if signing up from an [offer](https://chargify.zendesk.com/hc/en-us/articles/4407753852059), an `offer_id`.
 
 ### Product Details
 
@@ -52,7 +52,7 @@ The product may be specified by either `product[id]` or by `product[handle]`, or
 
 | Parameter      | Description                                                                         | Required |
 |----------------|-------------------------------------------------------------------------------------|----------|
-| `offer_id`     | The `id` or `handle` of the [offer](https://help.chargify.com/offers/offers-introduction.html) your customer is signing up for. | Optional, but required if using offers |
+| `offer_id`     | The `id` or `handle` of the [offer](https://chargify.zendesk.com/hc/en-us/articles/4407753852059) your customer is signing up for. | Optional, but required if using offers |
 
 
 **Offer Handles**

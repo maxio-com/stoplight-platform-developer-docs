@@ -19,7 +19,7 @@ In addition to being simpler to setup and implement compared to Chargify Direct,
 + GoCardless
 + 3D Secure for PSD2 compliance
 
-In terms of security, Chargify.js is SAQ-A compliant, whereas Chargify Direct is only SAQ-A-EP; this means that Chargify Direct requires more security compliance on your end than Chargify.js does. SAQ-A is the same compliance level as using one of our hosted Public Signup Pages. For more information on PCI compliance, [please visit our help docs](https://help.chargify.com/my-account/pci-compliance.html).
+In terms of security, Chargify.js is SAQ-A compliant, whereas Chargify Direct is only SAQ-A-EP; this means that Chargify Direct requires more security compliance on your end than Chargify.js does. SAQ-A is the same compliance level as using one of our hosted Public Signup Pages. For more information on PCI compliance, [please visit our help docs](https://chargify.zendesk.com/hc/en-us/articles/4407753306651).
 
 ## Implementation Comparison
 

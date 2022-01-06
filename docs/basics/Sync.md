@@ -4,7 +4,7 @@ tags: [Basics]
 
 # Sync
 
-After creating and managing subscriptions, you might need a way for your application to know about the state of a customers subscription. This can be done either directly through the API or by Chargify notifying your application using the handy [webhooks](https://help.chargify.com/webhooks/introduction.html) feature.
+After creating and managing subscriptions, you might need a way for your application to know about the state of a customers subscription. This can be done either directly through the API or by Chargify notifying your application using the handy [webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407912597403) feature.
 
 ----------
 
@@ -43,7 +43,7 @@ The following are some best practices that we would suggest regarding using API 
 
 Webhooks offer a way to quickly find out about changes to your Subscriptions that happen within Chargify. You can subscribe to events of interest, and we’ll post data to the URL you specify when one of those events occurs.
 
-For more general information, see [webhooks](https://help.chargify.com/webhooks/introduction.html).
+For more general information, see [webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407912597403).
 
 ### Using Webhooks
 
@@ -64,7 +64,7 @@ In general, the normal process for using webhooks is:
 5. You perform some action using the validated event data, like sending a welcome email to the customer or provision your services.
 6. You respond `200 OK` to the initial request, thereby completing the webhook transaction with Chargify.
 
-Please see [webhooks](https://help.chargify.com/webhooks/introduction.html) documentation for more information.
+Please see [webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407912597403) documentation for more information.
 
 ### Configuring Webhooks
 
@@ -73,11 +73,11 @@ Webhooks are a simple method of allowing Chargify system to "speak" directly wit
 Webhooks, as configured in your Chargify account, are as simple as:
 
 * A [URL](https://en.wikipedia.org/wiki/Uniform_Resource_Locator)
-* A set of [events](https://help.chargify.com/webhooks/webhooks-reference.html#events) that you wish to subscribe to
+* A set of [events](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#events) that you wish to subscribe to
 
 You may enable/disable webhooks as you require them, they are not required to be used but they do have considerable benefit.
 
-Please see [configuring webhooks](https://help.chargify.com/webhooks/webhooks-reference.html#configuring-webhooks) documentation for more information.
+Please see [configuring webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#configuring-webhooks) documentation for more information.
 
 ### Testing Webhooks
 
@@ -101,7 +101,7 @@ To enable the receipt of webhooks, simply enable them from within your site sett
 
 Upon receipt of a webhook, you should accept it by returning an HTTP `200 OK` response as quickly as possible. Sending any other response (i.e. `500 Internal Server Error`, `404 Not Found`, etc.) OR failing to return a response within approximately 15 seconds will result in automatic retries of the webhooks.
 
-For more details on the retry mechanism and webhook replay, see our [documentation](https://help.chargify.com/webhooks/webhooks-reference.html#webhook-acknowledgement-and-automatic-retries).
+For more details on the retry mechanism and webhook replay, see our [documentation](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#webhook-acknowledgement-and-automatic-retries).
 
 ### Verifying Events
 
@@ -119,7 +119,7 @@ You may either retrieve the signature value through the header `X-Chargify-Webho
 ```http
 http://example.com/?signature={signature_hmac_sha_256}
 ```
-Please see [webhook signature verification](https://help.chargify.com/webhooks/webhooks-reference.html#webhook-verification) for more information.
+Please see [webhook signature verification](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#webhook-verification) for more information.
 
 ### Best Practices
 

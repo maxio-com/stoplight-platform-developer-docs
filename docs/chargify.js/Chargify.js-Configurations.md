@@ -312,7 +312,7 @@ chargify.load({
 ## Braintree Advanced Fraud Protection Configuration
 
 In order to use Braintree Advanced Fraud Protection, you need to first set it up in Chargify.
-See [Chargify Help Docs](https://help.chargify.com/payment-gateways/gateway-options.html#braintree-advanced-fraud-protection) for details.
+See [Chargify Help Docs](https://chargify.zendesk.com/hc/en-us/articles/4407754947099#braintree-advanced-fraud-protection) for details.
 Once set up in Chargify, you simply need to use the `deviceData` option in Chargify.js:
 
 ```javascript
