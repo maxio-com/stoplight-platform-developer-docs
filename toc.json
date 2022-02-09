@@ -135,6 +135,11 @@
         },
         {
           "type": "item",
+          "title": "2022-02-09 Component Allocation Events Backfilled With Transaction Exchange Rate",
+          "uri": "docs/announcements/2022-02-09-Component-Allocation-Events-Backfilled-With-Transaction-Exchange-Rate.md"
+        },
+        {
+          "type": "item",
           "title": "2021-12-16 Current Vault Validation",
           "uri": "docs/announcements/2021-12-16-Current-Vault-Validation.md"
         },
@@ -177,11 +182,6 @@
           "type": "item",
           "title": "2020-07-13 API Subscriptions XML Response Change",
           "uri": "docs/announcements/2020-07-13-API-Subscriptions-XML-Response-Change.md"
-        },
-        {
-          "type": "item",
-          "title": "2020-04-20 New API Authentication",
-          "uri": "docs/announcements/2020-04-20-New-API-Authentication.md"
         }
       ]
     },
