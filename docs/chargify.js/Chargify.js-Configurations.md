@@ -484,7 +484,7 @@ Note that styles can be set globally across the whole form, or set individually 
 Objects that can be styled:
 
 | Field name | Description |
-| ---------- | ------  | -------- | ----------- |
+| ---------- | ----------- |
 | field  | This will apply to the container of the field. |
 | input | The text that appears in the iframe. |
 | label | The label for the iframe. |
@@ -493,7 +493,7 @@ Objects that can be styled:
 Available styles:
 
 | Field name | Example | Description |
-| ---------- | ------  | -------- | ----------- |
+| ---------- | ------- | ----------- |
 | backgroundColor  | `orange` | Changes the background color. |
 | paddingTop  | `10px` | Adds some space at the top. |
 | paddingBottom | `10px` | Adds some space at the bottom. |
@@ -501,6 +501,30 @@ Available styles:
 | color | `blue` | Change the color of the text in the input. |
 | border | `1px dashed #ffc0cb57` | Creates a border around the iframe. |
 | fontSize | `11px` | The size of the font in the input. |
+
+In order to style pseudo-element, you have to put the name inside quotes, eg:
+
+```js
+style: {
+  input: {  
+    '::placeholder': { color: '#ff0000', fontStyle: 'italic' }
+  }
+} 
+```
+
+This will change the placeholder text color to red and font style to italic.
+
+The same is for pseudo-class, eg:
+
+```js
+style: {
+  input: {  
+    ':focus': { border: 'solid 3px #ff0000', color: '#ff0000' }
+  }
+}
+```
+
+This will add a 3px red border when you put your cursor in the input field (this field will acquire the focus event)
 
 ### Credit Card Fields
 
