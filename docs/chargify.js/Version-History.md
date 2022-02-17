@@ -26,7 +26,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 
-* **2022-02-17a** **latest**
+* **2022-02-17b** **latest**
+  * [hotfix] Revert changes in 2022-02-17 and 2022-02-17a
+* **2022-02-17a**
   * [hotfix] Fix bug with invalid fields in the error callback as an array of objects
 * **2022-02-17**
   * [feature] Add better validations
