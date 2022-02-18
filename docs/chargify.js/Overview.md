@@ -14,6 +14,8 @@ Chargify provides transparent `iframes` that allow you to customize a customer's
 
 When a customer submits your payment form, Chargify.js sends the customer payment information to be securely stored in your payment gateway.  In return, a one-time token is generated for you to use to complete the subscription process using our API. The one-time-payment token references the payment information that is securely stored in your gateway.
 
+![Chargify.js Flow](../../assets/images/docs/chargify.js/Overview.md/chargify_js_flow.jpg)
+
 With this token you can create a subscription or payment profile assigned to the customer. Your PCI is significantly reduced, because of you don't pass any sensitive payment information. An example API call to the subscriptions endpoint would take the following form:
 
 * token created in Chargify.js using type: 'credit_card'
