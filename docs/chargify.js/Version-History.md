@@ -26,7 +26,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 
-* **2022-02-23** **latest**
+* **2022-02-25** **latest**
+  * [bugfix] Fix editing in fields with input masks, add input mask for the unrecognized card number
+* **2022-02-23** 
   * [feature] Add better validations
 * **2022-02-17b**
   * [hotfix] Revert changes in 2022-02-17 and 2022-02-17a
