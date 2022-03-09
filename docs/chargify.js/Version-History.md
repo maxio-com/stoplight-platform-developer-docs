@@ -26,7 +26,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 
-* **2022-02-25** **latest**
+* **2022-03-09** **latest**
+  * [bugfix] Fix 3ds payment authorization currency for bluesnap (uses custom one when it was set up)
+* **2022-02-25**
   * [bugfix] Fix editing in fields with input masks, add input mask for the unrecognized card number
 * **2022-02-23** 
   * [feature] Add better validations
