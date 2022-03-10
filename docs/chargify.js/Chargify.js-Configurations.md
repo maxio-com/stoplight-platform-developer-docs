@@ -512,6 +512,27 @@ message: {
 ```
 If you set the message as the string for those fields then this message will be returned for all invalid scenarios for that field.
 
+As of the `2022-03-10` version some of the fields have the additional option `next_focus`, those fields are:
+* number
+* month
+* year
+
+Setting this option on those fields will fire the focus event on the selected field.
+
+Example:
+
+```js
+number: {
+  selector: '#chargify-form',
+  label: 'Number',
+  placeholder: 'xxxx xxxx xxxx xxxx',
+  next_focus: 'month', 
+}
+```
+
+In the example above when the user enter full credit card number eg. 4242 4242 4242 4242 it will autofocus to the month field
+
+
 ### Styles
 
 Note that styles can be set globally across the whole form, or set individually on particular fields. They are all optional.
