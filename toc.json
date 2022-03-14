@@ -135,6 +135,11 @@
         },
         {
           "type": "item",
+          "title": "2022-03-14 Multicurrency Revenue Fix",
+          "uri": "docs/announcements/2022-03-14-Multicurrency-Revenue-Fix.md"
+        },
+        {
+          "type": "item",
           "title": "2022-02-09 Component Allocation Events Backfilled With Transaction Exchange Rate",
           "uri": "docs/announcements/2022-02-09-Component-Allocation-Events-Backfilled-With-Transaction-Exchange-Rate.md"
         },
@@ -177,11 +182,6 @@
           "type": "item",
           "title": "2020-12-18 Changes to date_field Validation",
           "uri": "docs/announcements/2020-12-18-Changes-to-date_field-Validation.md"
-        },
-        {
-          "type": "item",
-          "title": "2020-07-13 API Subscriptions XML Response Change",
-          "uri": "docs/announcements/2020-07-13-API-Subscriptions-XML-Response-Change.md"
         }
       ]
     },
