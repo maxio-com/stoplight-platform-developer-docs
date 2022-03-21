@@ -26,7 +26,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 
-* **2022-03-10** **latest**
+* **2022-03-21** **latest**
+  * [enhancement] Credit card detection callback
+* **2022-03-10** 
   * [feature] Add support for auto focus to next field
 * **2022-03-09** 
   * [bugfix] Fix 3ds payment authorization currency for bluesnap (uses custom one when it was set up)
