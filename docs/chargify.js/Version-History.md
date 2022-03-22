@@ -26,7 +26,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 
-* **2022-03-21** **latest**
+* **2022-03-22** **latest**
+  * [bugfix] Invoke onError callback when customer cancels 3DS authentication
+* **2022-03-21**
   * [enhancement] Credit card detection callback
 * **2022-03-10** 
   * [feature] Add support for auto focus to next field
