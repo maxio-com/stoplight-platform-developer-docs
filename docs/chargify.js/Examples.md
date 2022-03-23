@@ -718,11 +718,6 @@ chargify.load({
                     padding: '3px',
                     borderRadius: '5px'
                 },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
-                },
                 label: {
                     paddingTop: '2px',
                     paddingBottom: '1px',
@@ -743,11 +738,6 @@ chargify.load({
                     backgroundColor: '#ffdfdf',
                     padding: '3px',
                     borderRadius: '5px'
-                },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
                 },
                 label: {
                     paddingTop: '2px',
@@ -1095,11 +1085,6 @@ chargify.load({
                     padding: '3px',
                     borderRadius: '5px'
                 },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
-                },
                 label: {
                     paddingTop: '2px',
                     paddingBottom: '1px',
@@ -1120,11 +1105,6 @@ chargify.load({
                     backgroundColor: '#ffdfdf',
                     padding: '3px',
                     borderRadius: '5px'
-                },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
                 },
                 label: {
                     paddingTop: '2px',
