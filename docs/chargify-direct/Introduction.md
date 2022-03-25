@@ -6,7 +6,7 @@ tags: [Chargify Direct]
 
 ## Deprecation
 
-| ❗️  Please note that Chargify Direct has been deprecated in favor of Chargify.js  |
+| ❗️  Please note that Chargify Direct has been deprecated in favor of Chargify.js and its support for multi-gateways is limited only to default gateways  |
 |-----------------------------------------------------------------------------|
 
 Chargify.js is a PCI compliant way of embedding payment forms on your site, while still making full use of our powerful API.
