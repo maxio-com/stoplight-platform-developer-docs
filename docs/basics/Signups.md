@@ -94,6 +94,9 @@ For more advanced subscription creation scenarios, please see [Advanced Subscrip
 
 ### Chargify Direct
 
+| ❗️  Please note that Chargify Direct has been deprecated in favor of Chargify.js and its support for multi-gateways is limited only to default gateways  |
+|-----------------------------------------------------------------------------|
+
 Chargify Direct allows you to create Chargify resources (such as Subscriptions) via a form on your own website that posts directly to Chargify. After Chargify receives the form submission, the user is redirected back to your own site. The redirection communicates the result of the submission so that your website can decide how to respond to the user. This flow is sometimes called “transparent redirect” within the industry.
 
 Example:
