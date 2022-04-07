@@ -412,7 +412,7 @@ The following example contains a minimalist approach to working with Chargify.js
         selector: '#chargify1',
         publicKey: 'your-public-api-key',
         type: 'pay_pal',
-        selectorForApplePayButton: '#pay-pal',
+        selectorForPayPalButton: '#pay-pal',
         serverHost: 'https://your-subdomain.chargify.com'
     }, {
         // this function is called after PayPal authorization passes (i.e. user has completed PayPal flow)
