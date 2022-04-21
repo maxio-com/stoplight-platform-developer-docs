@@ -477,6 +477,62 @@ The fields below are more suited for styling specific fields, but CSS can be spe
 | message | `This field is not valid. Please update it` | Optional | The text that appears on an invalid submission.
 | maxLength | `30` | Optional | The max number of characters allowed for the field. |
 
+As of the `2022-02-23` version some of the fields have additional error messages, so if you want to customize it you have to set the message as an object with some predefined keys.
+Available keys for message object for fields:
+* field `number`
+```js
+message: { 
+  empty: 'This will be returned when the field is blank', 
+  too_short: 'This will be returned when the credit card number is too short (< 13 digits)', 
+  invalid: 'This will be returned when the credit card number is proper length but it is not a valid credit card number' 
+},
+```
+* field `month`
+```js
+message: {
+  empty:  'This will be returned when the field is blank',
+  in_past: 'This will be returned when the month is in the past',
+  invalid: 'This will be returned when the month is invalid',
+},
+```
+* field `year`
+```js
+message: {
+  empty:  'This will be returned when the field is blank',
+  in_past: 'This will be returned when the year is in the past',
+  invalid: 'This will be returned when the year is invalid',
+},
+```
+* field `cvv`
+```js
+message: {
+  empty: 'This will be returned when the field is blank',
+  invalid: 'This will be returned when CVV code is invalid.',
+},
+```
+If you set the message as the string for those fields then this message will be returned for all invalid scenarios for that field.
+
+As of the `2022-03-10` version some of the fields have the additional option `next_focus`, those fields are:
+* number
+* month
+* year
+
+Setting this option on those fields will fire the focus event on the selected field.
+
+Example:
+
+```js
+number: {
+  selector: '#chargify-form',
+  label: 'Number',
+  placeholder: 'xxxx xxxx xxxx xxxx',
+  next_focus: 'month', 
+}
+```
+
+In the example above when the user enter full credit card number eg. 4242 4242 4242 4242 it will autofocus to the month field
+
+
 ### Styles
 
 Note that styles can be set globally across the whole form, or set individually on particular fields. They are all optional.

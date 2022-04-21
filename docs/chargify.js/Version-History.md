@@ -26,7 +26,21 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 
-* **2022-02-17b** **latest**
+* **2022-04-06** **latest**
+  * [feature] Add callback when 3ds modal window opens and closes
+* **2022-03-22**
+  * [bugfix] Invoke onError callback when customer cancels 3DS authentication
+* **2022-03-21**
+  * [enhancement] Credit card detection callback
+* **2022-03-10** 
+  * [feature] Add support for auto focus to next field
+* **2022-03-09** 
+  * [bugfix] Fix 3ds payment authorization currency for bluesnap (uses custom one when it was set up)
+* **2022-02-25**
+  * [bugfix] Fix editing in fields with input masks, add input mask for the unrecognized card number
+* **2022-02-23** 
+  * [feature] Add better validations
+* **2022-02-17b**
   * [hotfix] Revert changes in 2022-02-17 and 2022-02-17a
 * **2022-02-17a**
   * [hotfix] Fix bug with invalid fields in the error callback as an array of objects

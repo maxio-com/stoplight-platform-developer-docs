@@ -412,7 +412,7 @@ The following example contains a minimalist approach to working with Chargify.js
         selector: '#chargify1',
         publicKey: 'your-public-api-key',
         type: 'pay_pal',
-        selectorForApplePayButton: '#pay-pal',
+        selectorForPayPalButton: '#pay-pal',
         serverHost: 'https://your-subdomain.chargify.com'
     }, {
         // this function is called after PayPal authorization passes (i.e. user has completed PayPal flow)
@@ -718,11 +718,6 @@ chargify.load({
                     padding: '3px',
                     borderRadius: '5px'
                 },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
-                },
                 label: {
                     paddingTop: '2px',
                     paddingBottom: '1px',
@@ -743,11 +738,6 @@ chargify.load({
                     backgroundColor: '#ffdfdf',
                     padding: '3px',
                     borderRadius: '5px'
-                },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
                 },
                 label: {
                     paddingTop: '2px',
@@ -1095,11 +1085,6 @@ chargify.load({
                     padding: '3px',
                     borderRadius: '5px'
                 },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
-                },
                 label: {
                     paddingTop: '2px',
                     paddingBottom: '1px',
@@ -1120,11 +1105,6 @@ chargify.load({
                     backgroundColor: '#ffdfdf',
                     padding: '3px',
                     borderRadius: '5px'
-                },
-                select: {
-                    backgroundColor: '#fdfde1',
-                    paddingTop: '2px',
-                    paddingBottom: '1px'
                 },
                 label: {
                     paddingTop: '2px',
