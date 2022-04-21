@@ -1498,7 +1498,7 @@ The following is a full example of using Chargify.js with PayPal.
 ```javascript
 chargify.load({
     publicKey: 'your-public-api-key',
-    type: 'pay-pal',
+    type: 'pay_pal',
     selectorForPayPalButton: '#pay-pal',
     serverHost: 'hhttps://your-subdomain.chargify.com',
     fields: {
