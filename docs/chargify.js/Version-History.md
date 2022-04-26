@@ -26,7 +26,7 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 
-* **2022-04-26** **latest**
+* **2022-04-27** **latest**
   * [bugfix] Fix validation border for standalone card field
 * **2022-04-06**
   * [feature] Add callback when 3ds modal window opens and closes
