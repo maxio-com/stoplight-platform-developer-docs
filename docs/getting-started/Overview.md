@@ -23,4 +23,3 @@ We are available 12am-12am CT Monday - Friday, excluding holidays.
 - [Open a support ticket](https://chargify.zendesk.com/hc/en-us/requests/new)
 - [Send an email to support](mailto:support@chargify.com)
 - [Twitter](https://twitter.com/chargify)
-- Call 1-800-401-2414 or 1-617-249-4603 (outside U.S.)
