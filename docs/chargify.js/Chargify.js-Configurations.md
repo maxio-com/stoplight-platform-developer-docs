@@ -532,7 +532,7 @@ number: {
 
 In the example above when the user enter full credit card number eg. 4242 4242 4242 4242 it will autofocus to the month field.
 
-As of the `2022-09-19` version `country` and `state` fields have optional key `value` that sets default value on the input.
+As of the `2022-09-15` version `country` and `state` fields have optional key `value` that sets default value on the input.
 When global field `addressDropdowns` is set, the `value` must be in 2-letter format to render dropdown with selected value.
 
 Example:
