@@ -25,7 +25,11 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2022-11-02** **latest**
+* **2022-11-30** **latest**
+  * [feature] add ability to listen to the address change event
+* **2022-11-04**
+  * [feature] add ability to set default value for firstName, lastName and address fields in config
+* **2022-11-02**
   * [bugfix] prevent browser extensions from interfering with iframes communication
 * **2022-10-11**
   * [enhancement] improve 3DS error messages from Braintree
