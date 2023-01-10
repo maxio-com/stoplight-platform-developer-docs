@@ -135,6 +135,11 @@
         },
         {
           "type": "item",
+          "title": "2023-01-10 Ability to sort results for List Metadata for Resource Type endpoint.",
+          "uri": "docs/announcements/2023-01-10-Ability-To-Sort-Results-For-List-Metadata-For-Resource-Type-Endpoint.md"
+        },
+        {
+          "type": "item",
           "title": "2022-12-07 Cancel_at_end_of_period Set To True Is No Longer Respected During Subscription Creation Via API When It Is Not Intended To Be",
           "uri": "docs/announcements/2022-12-07-Cancel-At-End-Of-Period-Set-To-True-Is-No-Longer-Respected-During-Subscription-Creation-Via-API-When-It-Is-Not-Intended-To-Be.md"
         },
