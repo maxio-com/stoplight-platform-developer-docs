@@ -135,12 +135,17 @@
         },
         {
           "type": "item",
-          "title": "2023-01-16 Ability to sort results for List Metafields endpoint.",
+          "title": "2023-01-18 Ability to set custom settings for applying prepayments to invoices",
+          "uri": "docs/announcements/2023-01-18-Ability-To-Set-Custom-Settings-For-Applying-Prepayments-To-Invoices.md"
+        },
+        {
+          "type": "item",
+          "title": "2023-01-16 Ability to sort results for List Metafields endpoint",
           "uri": "docs/announcements/2023-01-16-Ability-To-Sort-Results-For-List-Metafields-Endpoint.md"
         },
         {
           "type": "item",
-          "title": "2023-01-10 Ability to sort results for List Metadata for Resource Type endpoint.",
+          "title": "2023-01-10 Ability to sort results for List Metadata for Resource Type endpoint",
           "uri": "docs/announcements/2023-01-10-Ability-To-Sort-Results-For-List-Metadata-For-Resource-Type-Endpoint.md"
         },
         {
