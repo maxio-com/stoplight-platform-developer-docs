@@ -135,6 +135,11 @@
         },
         {
           "type": "item",
+          "title": "2023-02-13 Limitations to custom fields",
+          "uri": "docs/announcements/2023-02-13-Limitations-To-Custom-Fields.md"
+        },
+        {
+          "type": "item",
           "title": "2023-01-30 'Access Denied' 401 HTTP responses in UI and API",
           "uri": "docs/announcements/2023-01-30-Access-Denied-401-HTTP-Responses-In-UI-And-API.md"
         },
