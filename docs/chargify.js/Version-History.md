@@ -25,7 +25,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2023-01-31** **latest**
+* **2023-02-02** **latest**
+  * [internal] improve ACH flow
+* **2023-01-31**
   * [internal] fix source maps generation
 * **2023-01-26**
   * [internal] upgrade to node 16
