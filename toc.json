@@ -135,6 +135,11 @@
         },
         {
           "type": "item",
+          "title": "2023-02-28 Increase in Declines from Stripe Gateway",
+          "uri": "docs/announcements/2023-02-28-Increase-in-Declines-from-Stripe-Gateway.md"
+        },
+        {
+          "type": "item",
           "title": "2023-02-03 Unintended Renewal Event After The First Dunning Attempt",
           "uri": "docs/announcements/2023-02-03-Unintended-Renewal-Event-After-The-First-Dunning-Attempt.md"
         },
