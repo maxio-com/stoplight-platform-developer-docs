@@ -95,7 +95,7 @@
     },
     {
       "type": "group",
-      "title": "Chargify.js",
+      "title": "Maxio.js (previously Chargify.js)",
       "items": [
         {
           "type": "item",
@@ -104,7 +104,7 @@
         },
         {
           "type": "item",
-          "title": "Chargify.js Configurations",
+          "title": "Maxio.js (previously Chargify.js) Configurations",
           "uri": "docs/chargify.js/Chargify.js-Configurations.md"
         },
         {
