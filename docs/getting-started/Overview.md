@@ -19,7 +19,7 @@ A custom Chargify integration requires general programming/developer skills. If 
 
 We are available 12am-12am CT Monday - Friday, excluding holidays.
 
-- [Contact our sales team](mailto:sales@chargify.com)
-- [Open a support ticket](https://chargify.zendesk.com/hc/en-us/requests/new)
+- [Contact our sales team](mailto:sales@maxio.com)
+- [Open a support ticket](https://maxio-chargify.zendesk.com/hc/en-us/requests/new)
 - [Send an email to support](mailto:support@chargify.com)
-- [Twitter](https://twitter.com/chargify)
+- [Twitter](https://twitter.com/WeAreMaxio)
