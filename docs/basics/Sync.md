@@ -37,13 +37,14 @@ For more detailed information, see API documentation on [reading the subscriptio
 The following are some best practices that we would suggest regarding using API and how you synchronize your application with your Chargify data:
 
 1. Your application should try and not depend on another service to control access directly. Should your API call fail, for any reason, then your customer might not receive the best user experience depending on how you've implemented this.
-2. You should try and limit the direct calls to Chargify if (and when) possible as there is a limit to how fast (and how often) the Chargify API will respond to very quick and numerous API calls. For more information, see [limits and blocks](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#api-access-limitations).
+2. You should try and limit the direct calls to Chargify if (and when) possible as there is a limit to how fast (and how often) the Chargify API will respond to very quick and numerous API calls. For more information, see [limits and blocks](https://developers.chargify.com/docs/developer-docs/fb8406f1615d1-api-guidelines#about-limits--blocks).
+q
 
 ## Webhooks
 
 Webhooks offer a way to quickly find out about changes to your Subscriptions that happen within Chargify. You can subscribe to events of interest, and we’ll post data to the URL you specify when one of those events occurs.
 
-For more general information, see [webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407912597403).
+For more general information, see [webhooks](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405568068365-Webhooks-Introduction#webhooks-introduction-0-0).
 
 ### Using Webhooks
 
@@ -64,7 +65,7 @@ In general, the normal process for using webhooks is:
 5. You perform some action using the validated event data, like sending a welcome email to the customer or provision your services.
 6. You respond `200 OK` to the initial request, thereby completing the webhook transaction with Chargify.
 
-Please see [webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407912597403) documentation for more information.
+Please see [webhooks](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645-Webhooks-Reference#events) documentation for more information.
 
 ### Configuring Webhooks
 
@@ -73,11 +74,11 @@ Webhooks are a simple method of allowing Chargify system to "speak" directly wit
 Webhooks, as configured in your Chargify account, are as simple as:
 
 * A [URL](https://en.wikipedia.org/wiki/Uniform_Resource_Locator)
-* A set of [events](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#events) that you wish to subscribe to
+* A set of [events](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645#events) that you wish to subscribe to
 
 You may enable/disable webhooks as you require them, they are not required to be used but they do have considerable benefit.
 
-Please see [configuring webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#configuring-webhooks) documentation for more information.
+Please see [configuring webhooks](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645#configuring-webhooks) documentation for more information.
 
 ### Testing Webhooks
 
@@ -101,7 +102,7 @@ To enable the receipt of webhooks, simply enable them from within your site sett
 
 Upon receipt of a webhook, you should accept it by returning an HTTP `200 OK` response as quickly as possible. Sending any other response (i.e. `500 Internal Server Error`, `404 Not Found`, etc.) OR failing to return a response within approximately 15 seconds will result in automatic retries of the webhooks.
 
-For more details on the retry mechanism and webhook replay, see our [documentation](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#webhook-acknowledgement-and-automatic-retries).
+For more details on the retry mechanism and webhook replay, see our [documentation](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645#webhook-acknowledgement-and-automatic-retries).
 
 ### Verifying Events
 
@@ -119,7 +120,7 @@ You may either retrieve the signature value through the header `X-Chargify-Webho
 ```http
 http://example.com/?signature={signature_hmac_sha_256}
 ```
-Please see [webhook signature verification](https://chargify.zendesk.com/hc/en-us/articles/4407905415963#webhook-verification) for more information.
+Please see [webhook signature verification](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645-Webhooks-Reference#webhook-verification) for more information.
 
 ### Best Practices
 

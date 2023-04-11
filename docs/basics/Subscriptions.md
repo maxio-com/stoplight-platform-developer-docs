@@ -10,7 +10,7 @@ After creating subscriptions, either you or your customers will need to manage t
      
 ## One-Time Charges
 
-Chargify allows you to add charges to a subscription outside of the regular recurring billing cycle. This is called a ["one-time" charge](https://chargify.zendesk.com/hc/en-us/articles/4407897565723) though it simply refers to a charge that happens once and occurs from either submitting a charge via the API or by manually creating the charge in the app.
+Chargify allows you to add charges to a subscription outside of the regular recurring billing cycle. This is called a ["one-time" charge](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404619484685#one-time-charges-0-0) though it simply refers to a charge that happens once and occurs from either submitting a charge via the API or by manually creating the charge in the app.
 
 For example, if you wanted to add a charge of $1 - it would look like the following:
 
@@ -77,7 +77,7 @@ Please see the full API documentation for [adjustments](https://developers.charg
 
 ## Billing Dates
 
-A common method of managing a subscription might be for the billing date to change (as in the date the subscription is next processed/assessed and charges may potentially be captured from the payment method of the subscription). This is generally done: as a common method of extending or shortening trials, or processing the subscription "immediately" or just changing the billing date for use in [calandar billing](https://chargify.zendesk.com/hc/en-us/articles/4407896191515#calendar-billing) scenarios.
+A common method of managing a subscription might be for the billing date to change (as in the date the subscription is next processed/assessed and charges may potentially be captured from the payment method of the subscription). This is generally done: as a common method of extending or shortening trials, or processing the subscription "immediately" or just changing the billing date for use in [calandar billing](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404938778125#calendar-billing-0-0) scenarios.
 
 A quick example of updating the billing date for a subscription would look like the following:
 
@@ -96,7 +96,7 @@ Please see the full API documentation for [updating subscription assessment date
 
 Product price points allow you to charge customers different amounts and at different frequencies for the same product.
 
-Please see the full documentation on [Product Price Points](https://chargify.zendesk.com/hc/en-us/articles/4407755824155)
+Please see the full documentation on [Product Price Points](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405141759885 )
 
 ## Updating Payment Details
 
@@ -129,9 +129,9 @@ message = "update_payment--{subscription_id}--{shared_key}"
 token = SHA1(message)[0..9]
 ```
 
-For more information about the self-service card update public page, please see [the following](https://chargify.zendesk.com/hc/en-us/articles/4407797760539#self-service-page-urls).
+For more information about the self-service card update public page, please see [the following](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404759627021#obtaining-the-self-service-page-url).
 
-Your users can also self-service update their payment method if using the Chargify Billing Portal feature, please see [here](https://chargify.zendesk.com/hc/en-us/articles/4407649191195#update-payment-method) for more information.
+Your users can also self-service update their payment method if using the Chargify Billing Portal feature, please see [here](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404759627021#updating-payment-information-via-the-billing-portal) for more information.
 
 ### Updating via API
 
@@ -203,11 +203,11 @@ It is also possible to cancel a subscription at the end of the current billing p
 
 For information about cancelling using the API, please see [Cancelling via API](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDg0MDI-cancel-subscription).
 
-For information about cancelling subscriptions in general, please see [cancellation](https://chargify.zendesk.com/hc/en-us/articles/4407896775579).
+For information about cancelling subscriptions in general, please see [cancellation](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404968574605).
 
 ## Refunds
 
-When handing charging to any payment method, there are times when you will be required to refund. Refunds are only supported for the following gateways that are listed in our [help documentation](https://chargify.zendesk.com/hc/en-us/articles/4407898813851). Please refer to the previously linked document for up to the minute information on what gateways support refunds. 
+When handing charging to any payment method, there are times when you will be required to refund. Refunds are only supported for the following gateways that are listed in our [help documentation](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404572583693#refunds-0-0). Please refer to the previously linked document for up to the minute information on what gateways support refunds. 
 
 For gateways like Bambora, you will need to perform a "manual refund" in that you record the refund as a transaction directly after you perform the actual refund in your gateway account.
 
@@ -255,7 +255,7 @@ As an example, here are a few examples of actions that can be performed via the 
 + Credit card updates
 + Component purchase / allocation updates 
 
-For more information on the Chargify Billing Portal, we encourage you to view our full documentation [here.](https://chargify.zendesk.com/hc/en-us/articles/4407648972443)
+For more information on the Chargify Billing Portal, we encourage you to view our full documentation [here.](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405529728141)
 
 ----------
 

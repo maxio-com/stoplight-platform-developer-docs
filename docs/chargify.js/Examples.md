@@ -322,7 +322,7 @@ The following example contains a minimalist approach to working with Chargify.js
 
 For more information on GoCardless, please see the following resources:
 
-+ [GoCardless introduction](https://chargify.zendesk.com/hc/en-us/articles/4407761924123)
++ [GoCardless introduction](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404501889677#gocardless-setup)
 + Using GoCardless via API for creating [subscriptions](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription#subscription-using-gocardless-bank-number) and/or [payment profiles](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile#gocardless)
 
 
@@ -347,7 +347,7 @@ The following example contains a minimalist approach to working with Chargify.js
 
 For more information on Stripe Direct Debit, please see the following resources:
 
-+ [Stripe Direct Debit introduction](https://chargify.zendesk.com/hc/en-us/articles/4407761733275)
++ [Stripe Direct Debit introduction](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405050826765)
 + Using Stripe SEPA Direct Debit via API for creating [subscriptions](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription#subscription-using-stripe-sepa-direct-debit) and/or [payment profiles](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile#sepa-direct-debit)
 + Using Stripe BECS Direct Debit via API for creating [subscriptions](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription#subscription-using-stripe-becs-direct-debit) and/or [payment profiles](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile#stripe-becs-direct-debit)
 
@@ -367,7 +367,7 @@ For more information on Stripe Direct Debit, please see the following resources:
 
 The following example contains a minimalist approach to working with Chargify.js and Apple Pay through Braintree.
 
-For more information on Apple Pay via Braintree, please see the following resource: [Apple Pay via Braintree overview](https://developers.braintreepayments.com/guides/apple-pay/overview)
+For more information on Apple Pay via Braintree, please see the following resource: [Apple Pay via Braintree overview](https://developer.paypal.com/braintree/docs/guides/apple-pay/overview)
 
 ```javascript
 <script>
@@ -779,7 +779,7 @@ chargify.load({
 
 ### Full Example with ACH
 
-The following is a full example of using Chargify.js with ACH. ACH is only available for certain gateways. To learn more about ACH and Chargify, please view our [documentation.](https://chargify.zendesk.com/hc/en-us/articles/4407754114075)
+The following is a full example of using Chargify.js with ACH. ACH is only available for certain gateways. To learn more about ACH and Chargify, please view our [documentation.](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404222613133)
 
 ```javascript
 var chargify = new Chargify();
@@ -1150,7 +1150,7 @@ The following is a full example of using Chargify.js with GoCardless.
 
 For more information on GoCardless, please see the following resources:
 
-+ [GoCardless introduction](https://chargify.zendesk.com/hc/en-us/articles/4407761924123)
++ [GoCardless introduction](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404501889677#gocardless-setup)
 + Using GoCardless via API for creating [subscriptions](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription#subscription-using-gocardless-bank-number) and/or [payment profiles](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile#gocardless)
 
 ```javascript
@@ -1254,7 +1254,7 @@ The following example contains a minimalist approach to working with Chargify.js
 
 For more information on Stripe Direct Debit, please see the following resources:
 
-+ [Stripe Direct Debit introduction](https://chargify.zendesk.com/hc/en-us/articles/4407761733275)
++ [Stripe Direct Debit introduction](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405050826765)
 + Using Stripe Direct Debit via API for creating [subscriptions](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription#subscription-using-stripe-sepa-direct-debit) and/or [payment profiles](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile#sepa-direct-debit)
 
 ```javascript
@@ -1342,7 +1342,7 @@ The following example contains a minimalist approach to working with Chargify.js
 
 For more information on Stripe Direct Debit, please see the following resources:
 
-+ [Stripe Direct Debit introduction](https://chargify.zendesk.com/hc/en-us/articles/4407761733275)
++ [Stripe Direct Debit introduction](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405050826765)
 + Using Stripe BECS Direct Debit via API for creating [subscriptions](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription#subscription-using-stripe-becs-direct-debit) and/or [payment profiles](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzNTU-create-payment-profile#stripe-becs-direct-debit)
 
 ```javascript
@@ -1429,7 +1429,7 @@ chargify.load({
 The following is a full example of using Chargify.js with Apple Pay.
 
 For more information on Apple Pay via Braintree, please see the following resources
-[Apple Pay via Braintree overview](https://developers.braintreepayments.com/guides/apple-pay/overview)
+[Apple Pay via Braintree overview](https://developer.paypal.com/braintree/docs/guides/apple-pay/overview)
 
 ```javascript
 chargify.load({

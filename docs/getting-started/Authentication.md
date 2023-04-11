@@ -13,7 +13,7 @@ There are two methods of authentication, depending on what you are accessing:
 * [Chargify API](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api) 
 * [Chargify Direct](./ZG9jOjE0NjAzNDE3-introduction) (deprecated in favor of [Chargify.js](./ZG9jOjE0NjAzNDI0-overview))
 
-Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see ["Obtaining Credentials"](https://chargify.zendesk.com/hc/en-us/articles/4407728073371).
+Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see ["Obtaining Credentials"](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404829390349-Users#users-0-0).
 
 For most integrations, the API will be the easiest to implement. Chargify Direct is a method of very securely creating subscriptions where the information is posted directly to Chargify and none of the payment information is passed through your code. Your requirements will dictate the need to use one or the other (or both).
 

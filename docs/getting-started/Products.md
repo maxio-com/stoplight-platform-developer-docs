@@ -12,7 +12,7 @@ With regards to products, there are three important aspects that are required fo
 * Creating the [product family](#product-family)
 * Creating the [product](#product)
 
-Before delving into this section, we recommend reviewing our [product documentation](https://chargify.zendesk.com/hc/en-us/articles/4407762375067) located in the main section of the Chargify help documents. 
+Before delving into this section, we recommend reviewing our [product documentation](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction) located in the main section of the Chargify help documents. 
 
 ## Product Family
 
@@ -46,7 +46,7 @@ A simple curl example would be the following:
 curl -u <API_KEY>:X -H Accept:application/json -d @product_family.json -X POST https://<SUBDOMAIN>.chargify.com/product_families.json
 ```
 
-To create a product family using the application, please see the following documentation: [Creating Product Families](https://chargify.zendesk.com/hc/en-us/articles/4407762380443#creating-product-families)
+To create a product family using the application, please see the following documentation: [Creating Product Families](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction#product-families)
 
 Please see [API Documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) for complete listing of input/output schema along with code examples in multiple programming languages.
 
@@ -77,7 +77,6 @@ You can create a product using the API, like so:
 
 That data should be posted to the [Product Create](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) API Endpoint.
 
-To create a product family using the Admin UI, please see the following documentation: [Creating Product Families](https://chargify.zendesk.com/hc/en-us/articles/4407762380443#creating-product-families)
 
 # Next Steps
 

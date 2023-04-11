@@ -41,7 +41,7 @@ For more information on Chargify gateways, please view the [current list of gate
 
 ## Multiple Gateways on a Single Site
 
-When Multi-Gateway is enabled on a site, you can connect this site with multiple gateways. Please [contact support](mailto:support@chargify.com) to enable this feature, and feel free to peruse our [help documentation on the topic](https://chargify.zendesk.com/hc/en-us/articles/4407761759643#connecting-with-multiple-gateways).
+When Multi-Gateway is enabled on a site, you can connect this site with multiple gateways. Please [contact support](mailto:support@chargify.com) to enable this feature, and feel free to peruse our [help documentation on the topic](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404876665741-Gateway-Configuration#selecting-a-gateway).
 
 Once enabled, you must set up a gateway handle for each connected gateway. This gateway handle can be optionally used in the Chargify.js to directly select a gateway where a payment profile will be stored in. [An example may be found here](./Chargify.js-Configurations.md#multi-gateway-configuration).
 

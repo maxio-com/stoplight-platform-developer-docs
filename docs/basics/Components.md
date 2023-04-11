@@ -4,7 +4,7 @@ tags: [Basics]
 
 # Components
 
-Components are a great way to customize how your customers can use your products or services, and provide an excellent mechanism for increasing the [MRR](http://saasmetrics.co/monthly-recurring-revenue/) per subscription through new features you might develop.
+Components are a great way to customize how your customers can use your products or services, and provide an excellent mechanism for increasing the [MRR](https://baremetrics.com/academy/saas-calculate-mrr) per subscription through new features you might develop.
 
 ----------
 
@@ -13,7 +13,7 @@ Components allow you to introduce additional “line items” to your products t
  1. [Creating](#creating-components) components
  2. The [usage/allocation](#usageallocation) of components
 
-For more information about components, see our [component](https://chargify.zendesk.com/hc/en-us/articles/4407755865883) documentation.
+For more information about components, see our [component](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405020625677) documentation.
 
 ## Creating Components
 
@@ -37,7 +37,7 @@ If you need to display component pricing to your customers, we recommend caching
 
 For more information on components, please see the following:
 
- - About [components](https://chargify.zendesk.com/hc/en-us/articles/4407755865883)
+ - About [components](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405020625677)
  - Creating components [via the API](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMjA-create-component)
 
 ## Usage/Allocation
