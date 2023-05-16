@@ -135,6 +135,10 @@
         },
         {
           "type": "item",
+          "title": "2023-05-16 Enable Chargify.js Security Token by default",
+          "uri": "docs/announcements/2023-05-16-Enable-Chargify-js-Security-Token-by-default.md"
+        },
+        {
           "title": "2023-05-10 SSL Badge Removal",
           "uri": "docs/announcements/2023-05-10-SSL-Badge-Removal.md"
         },
