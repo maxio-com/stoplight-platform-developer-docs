@@ -139,6 +139,15 @@
           "uri": "docs/announcements/2023-05-16-Enable-Chargify-js-Security-Token-by-default.md"
         },
         {
+          "title": "2023-05-10 SSL Badge Removal",
+          "uri": "docs/announcements/2023-05-10-SSL-Badge-Removal.md"
+        },
+        {
+          "type": "item",
+          "title": "2023-03-09 Rate of Declined Requests for Stripe Gateway",
+          "uri": "docs/announcements/2023-03-09-Rate-of-Declined-Requests-for-Stripe-Gateway.md"
+        },
+        {
           "type": "item",
           "title": "2023-02-28 Increase in Declines from Stripe Gateway",
           "uri": "docs/announcements/2023-02-28-Increase-in-Declines-from-Stripe-Gateway.md"

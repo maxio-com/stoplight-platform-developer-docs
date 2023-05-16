@@ -10,7 +10,7 @@ Chargify.js is a powerful tool that can be used to streamline your existing API-
 
 ## How it Works
 
-Chargify provides transparent `iframes` that allow you to customize a customer's payment form. This approach ensures the you meet the latest [PCI compliance requirements.](https://chargify.zendesk.com/hc/en-us/articles/4407753306651)
+Chargify provides transparent `iframes` that allow you to customize a customer's payment form. This approach ensures the you meet the latest [PCI compliance requirements.](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404889785869)
 
 When a customer submits your payment form, Chargify.js sends the customer payment information to be securely stored in your payment gateway.  In return, a one-time token is generated for you to use to complete the subscription process using our API. The one-time-payment token references the payment information that is securely stored in your gateway.
 
@@ -141,7 +141,7 @@ We recommend using the latest Chargify-hosted version of Chargify.js. This versi
 var chargify = new Chargify();
 ```
 
-3) [Generate a public key](https://chargify.zendesk.com/hc/en-us/articles/4407728073371#key-pair-chargifyjs). This will be separate from your API key, which must be kept private.
+3) [Generate a public key](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405281550477#key-pair-chargifyjs). This will be separate from your API key, which must be kept private.
 
 4) Load Chargify with the authentication and customizations you desire. We  have a [full article here dedicated to this topic](./Chargify.js-Configurations.md).
 
@@ -256,7 +256,7 @@ Specific technical considerations to be aware of:
 * Supports HTTP/2, HTTP/1.1, HTTP/1.0
 * Through the use of AWS Cloudfront, `https://js.chargify.com` is designed for maximum reliability and speed, but is not covered by our SLA, uptime, or performance guarantees.
 
-❗️ When you use Chargify.js, your workflow is classified as SAQ-A. For more information, please see our documentation on [PCI compliance](https://chargify.zendesk.com/hc/en-us/articles/4407753306651).
+❗️ When you use Chargify.js, your workflow is classified as SAQ-A. For more information, please see our documentation on [PCI compliance](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404889785869).
 
 ## Passing Pre-Filled Customer Information
 

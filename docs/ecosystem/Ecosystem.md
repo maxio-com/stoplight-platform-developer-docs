@@ -10,7 +10,7 @@ One of the many reasons to use Chargify is the immense feature set and surroundi
 
 Chargify has partnered with many SaaS solutions to help you manage your business. The complete list of integrations is available [here](https://www.chargify.com/integration-marketplace/).
 
-For more information about existing integrations, please see [integrations](https://chargify.zendesk.com/hc/en-us/articles/4407720955803).
+For more information about existing integrations, please see [integrations](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405429933069).
 
 ## Account
 
@@ -30,7 +30,7 @@ While you can certainly write your own code to interact with Chargify, it's like
 
 As of January 12, 2016 (approximated 9:00am ET) Chargify now no longer supports TLS 1.0 or TLS 1.1 over HTTPS on the chargify.com domain. Any older browsers or API clients that do not support TLS 1.2 will no longer work. This change is mandated by the PCI Security Council and affects all merchants and service providers processing or transmitting credit card data.
 
-For more information, please see our [help article on security](https://chargify.zendesk.com/hc/en-us/articles/4407747268763).
+For more information, please see our [help article on security](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404986900493).
 
 **Payment Card Industry (PCI)**
 

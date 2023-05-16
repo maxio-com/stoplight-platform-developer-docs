@@ -25,7 +25,17 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2023-02-06** **latest**
+* **2023-04-03** **latest**
+  * [feature] improve ACH flow
+* **2023-03-16** 
+  * [feature] add additional callbacks for ACH flow
+* **2023-03-13** 
+  * [feature] allow to populate country & state dropdowns with full names
+* **2023-03-10**
+  * [internal] improve ACH flow
+* **2023-03-06**
+  * [feature] security enhancements
+* **2023-02-06**
   * [bugfix] fix validation for default values
 * **2023-02-02**
   * [internal] improve ACH flow
