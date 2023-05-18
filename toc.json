@@ -149,6 +149,11 @@
         },
         {
           "type": "item",
+          "title": "2023-05-18 Change in the refund_success and refund_failure webhooks",
+          "uri": "docs/announcements/2023-05-18-Change-in-The-Refund_Success-and-Refund_Failure-Webhooks.md"
+        },
+        {
+          "type": "item",
           "title": "2023-02-28 Increase in Declines from Stripe Gateway",
           "uri": "docs/announcements/2023-02-28-Increase-in-Declines-from-Stripe-Gateway.md"
         },
