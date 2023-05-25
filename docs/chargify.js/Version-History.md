@@ -25,7 +25,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2023-05-17a** **latest**
+* **2023-05-25** **latest**
+  * [feature] add public method `isPaymentProfileProvided` that securely checks the presence of payment profile details in Chargify.js instance
+* **2023-05-17a**
   * [bugfix] fix issue with Braintree 3DS
 * **2023-05-17**
   * [internal] adjustment for Public Signup Pages usage
