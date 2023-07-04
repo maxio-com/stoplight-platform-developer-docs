@@ -11,7 +11,7 @@ Welcome to the Chargify Developer Portal. This documentation will help you get s
 A custom Chargify integration requires general programming/developer skills. If you are a developer, that’s great - this documentation is for you. If not, you can either hire a developer (or direct developers you employ to this documentation) or you can use our resources that are meant for non-developers like our help documentation or integrations.
 
 - [Developer Consultants](https://www.chargify.com/consultants/)
-- [Help Documentation](https://chargify.zendesk.com/hc/en-us)
+- [Help Documentation](https://maxio-chargify.zendesk.com/hc/en-us#availability)
 - [Integrations](../ecosystem/Ecosystem.md#integrations)
 
 
