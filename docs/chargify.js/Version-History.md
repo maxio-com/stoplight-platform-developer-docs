@@ -25,7 +25,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2023-07-17** **latest**
+* **2023-07-24** **latest**
+  * [internal] Plaid improvements
+* **2023-07-17**
   * [bugfix] possibility to add challengeRequested parameter for Braintree
 * **2023-07-11**
   * [bugfix] fix address fields incorrect behaviours
