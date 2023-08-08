@@ -426,6 +426,51 @@ chargify.load(configObject, {
 }
 ```
 
+## Plaid Configuration
+
+To integrate `chargify.js` with **Plaid**, certain arguments are required:
+
+- **selectorForPlaidLink**: Specifies the ID of the element where `chargify.js` will display a link for connecting a bank account via Plaid.
+  
+- **plaidLinkName**: Sets the text that appears on the Plaid link. The default is "*Use Plaid to connect my bank account*".
+
+- **plaidLinkStyle**: A JavaScript object that allows you to apply CSS styles to the Plaid link.
+
+Additionally, the following callbacks are available:
+
+- **onPlaidLinkTokenError**: Triggered when there's an error fetching the link token needed to initialize Plaid.
+  
+- **onPlaidComplete**: Triggered upon successful completion of the bank account connection process.
+  
+- **onPlaidExit**: Triggered when the Plaid modal is manually closed. If there are no errors during this process, the error parameter will be `null`.
+
+Here's a code example for reference:
+
+```javascript
+chargify.load({
+  selector: '#chargify-form',
+  publicKey: 'your-public-api-key',
+  type: 'direct_debit',
+  selectorForPlaidLink: '#plaid-link',
+  plaidLinkName: 'Use Plaid to connect my bank account',
+  plaidLinkStyle: {
+    backgroundColor: '#000',
+    color: '#fff',
+    padding: '15px 25px',
+    textDecoration: 'none',
+    margin: '20px'
+  },
+  serverHost: 'https://acme.maxio.com',
+}, {
+  onPlaidLinkTokenError: function(error) { console.log(error); },
+  onPlaidComplete: function() { console.log('onPlaidComplete'); },
+  onPlaidExit: function(error) { console.log('onPlaidExit: ' + error); },
+});
+```
+
+For more details on how the Plaid authentication module works, please check the [Plaid documentation](https://plaid.com/docs/auth/).
+
+
 ## Other callbacks
 
 Besides callbacks described above and related to given features or gateways, chargify.js makes available `onCardTypeDetected` callback.
