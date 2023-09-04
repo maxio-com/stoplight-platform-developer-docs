@@ -13,7 +13,7 @@ Call `chargify.load` anywhere on your page. It's that simple!
 ```javascript
 chargify.load({
     selector: '#chargify-form',
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
     type: 'card',
     serverHost: 'https://acme.chargify.com'
 });
@@ -30,7 +30,7 @@ chargify.load({
     selector: '#chargify-form',
 
     // (i.e. '1a2cdsdn3lkn54lnlkn')
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
 
     // form type
     type: 'card',
@@ -131,7 +131,7 @@ Selectors control where the iframe will appear on the page. By choosing a single
             selector: '#chargify1',
 
             // (i.e. '1a2cdsdn3lkn54lnlkn')
-            publicKey: 'your-public-api-key',
+            publicKey: 'chjs_your-public-api-key',
 
             // payment profile type you will accept
             type: 'card',
@@ -225,7 +225,7 @@ chargify.load({
     selector: '#chargify-form',
 
     // (i.e. '1a2cdsdn3lkn54lnlkn')
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
 
     // form type
     type: 'direct_debit',
@@ -263,7 +263,7 @@ chargify.load({
     selector: '#chargify-form',
 
     // (i.e. '1a2cdsdn3lkn54lnlkn')
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
 
     // form type
     type: 'direct_debit',
@@ -299,7 +299,7 @@ chargify.load({
     selector: '#chargify-form',
 
     // (i.e. '1a2cdsdn3lkn54lnlkn')
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
 
     // form type
     type: 'direct_debit',
@@ -322,7 +322,7 @@ chargify.load({
     selector: '#chargify-form',
 
     // (i.e. '1a2cdsdn3lkn54lnlkn')
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
 
     // form type
     type: 'card',
@@ -357,7 +357,7 @@ chargify.load({
     selector: '#chargify-form',
 
     // (i.e. '1a2cdsdn3lkn54lnlkn')
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
 
     // form type
     type: 'apple_pay',
@@ -399,7 +399,7 @@ chargify.load({
     selector: '#chargify-form',
 
     // (i.e. '1a2cdsdn3lkn54lnlkn')
-    publicKey: 'your-public-api-key',
+    publicKey: 'chjs_your-public-api-key',
 
     // form type
     type: 'pay_pal',
@@ -449,7 +449,7 @@ Here's a code example for reference:
 ```javascript
 chargify.load({
   selector: '#chargify-form',
-  publicKey: 'your-public-api-key',
+  publicKey: 'chjs_your-public-api-key',
   type: 'direct_debit',
   selectorForPlaidLink: '#plaid-link',
   plaidLinkName: 'Use Plaid to connect my bank account',
