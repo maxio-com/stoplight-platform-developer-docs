@@ -347,6 +347,24 @@ An example in Ruby using the [JWT Rubygem](https://github.com/jwt/ruby-jwt) foll
 )
 ```
 
+An example in Java using [java-jwt](https://github.com/auth0/java-jwt) would look like this:
+
+```java
+Algorithm algorithm = Algorithm.HMAC256("chjs_pvt_myprivatekey");
+String token = JWT.create()
+  .withIssuer("chjs_mypublickey")
+  .withJWTId("b8a9044cbada8b24a230ff8934663843") // unique random value
+  .withSubject("4035") // id of current user
+  .sign(algorithm);
+```
+
+And same example in python using [PyJWT](https://github.com/jpadilla/pyjwt):
+
+```py
+payload = {'iss': 'chjs_mypublickey', 'jti': 'b8a9044cbada8b24a230ff8934663843', 'sub': '4035'}
+jwt.encode(payload, 'chjs_pvt_myprivatekey', algorithm='HS256')
+```
+
 The token should then be provided to your Chargify.js client-side configuration under the key `securityToken`.
 
 For example, you could emit the security token into your HTML if you do configuration inline:
