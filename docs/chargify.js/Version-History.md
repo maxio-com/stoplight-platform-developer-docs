@@ -27,7 +27,7 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ## Release History
 * **2023-11-09** **latest**
   * [internal] improve ACH flow
-* **2023-09-12** **latest**
+* **2023-09-12**
   * [internal] Plaid improvements
 * **2023-09-05**
   * [internal] improvements for Public Signup Pages usage
