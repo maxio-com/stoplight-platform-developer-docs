@@ -16,6 +16,8 @@ There are three basic methods of either allowing or notifying your application a
 
 ## API
 
+
+
 One of the easiest methods is just to have your application request the current state (or history) of a subscription using the API. This will provide the current state of the subscription at the time of the request.
 
 ### Subscription State
