@@ -316,6 +316,46 @@ The following example contains a minimalist approach to working with Chargify.js
 </script>
 ```
 
+### Minimal Example with ACH and Maxio Payments gateway
+
+If you want to use Chargify.js for tokenization of the bank accounts for ACH using the Maxio Payments gateway, you need to have Plaid support enabled (contact our support to do that).
+
+```javascript
+<script>
+  var chargify = new Chargify();
+  
+  chargify.load({
+    // selector, where the iframe will be included on your page
+    // optional if you have a `selector` on each and every field
+    selector: '#chargify-form',
+
+    // (i.e. '1a2cdsdn3lkn54lnlkn')
+    publicKey: 'chjs_your-public-api-key',
+
+    // form type
+    type: 'direct_debit',
+
+    // selector for Plaid Link (Plaid Link will be shown inside of it)
+    selectorForPlaidLink: '#plaid-link',
+
+    // optional - name of the Plaid Link button (deafult: 'Use Plaid to connect my bank account')
+    plaidLinkName: 'Use Plaid to connect my bank account',
+    
+    // optional - style of the Plaid Link button (default: there are no styles, just a link)
+    plaidLinkStyle: {
+      backgroundColor: '#000',
+      color: '#fff',
+      padding: '15px 25px',
+      textDecoration: 'none',
+      marging: '20 px'
+    },
+
+    // points to your Chargify site
+    serverHost: 'https://acme.chargify.com',
+  });
+</script>
+```
+
 ### Minimal Example with Direct Debit (GoCardless gateway)
 
 The following example contains a minimalist approach to working with Chargify.js and Direct Debit through GoCardless.
@@ -1142,6 +1182,315 @@ chargify.load({
         }
     }
 });
+```
+
+### Full Example with ACH and Maxio Payments gateway
+
+If you want to use Chargify.js for tokenization of the bank accounts for ACH using the Maxio Payments gateway, you need to have Plaid support enabled (contact our support to do that).
+
+```javascript
+<script>
+  var chargify = new Chargify();
+
+  chargify.load({
+      publicKey: 'chjs_your-public-api-key',
+      type: 'direct_debit',
+      serverHost: 'https://acme.chargify.com',
+      hideCardImage: false,
+      optionalLabel: '(optional field)',
+      requiredLabel: '*',
+      addressDropdowns: true,
+      // selector for Plaid Link (Plaid Link will be shown inside of it)
+      selectorForPlaidLink: '#plaid-link',
+      // optional - name of the Plaid Link button (deafult: 'Use Plaid to connect my bank account')
+      plaidLinkName: 'Use Plaid to connect my bank account',
+      // optional - style of the Plaid Link button (default: there are no styles, just a link)
+      plaidLinkStyle: {
+        backgroundColor: '#000',
+        color: '#fff',
+        padding: '15px 25px',
+        textDecoration: 'none',
+        marging: '20 px'
+      },
+      style: {
+          '#chargify-form': { border: '1px dashed #ffc0cb57' },
+          field: {
+              backgroundColor: 'orange',
+              paddingTop: '10px',
+              paddingBottom: '10px',
+              borderRadius: '5px'
+          },
+          input: {
+              backgroundColor: '#e6e6e6',
+              paddingTop: '2px',
+              paddingBottom: '1px',
+              placeholder: { color: '#eee' }
+          },
+          label: {
+              backgroundColor: 'lightblue',
+              paddingTop: '2px',
+              paddingBottom: '1px'
+          },
+          message: {
+              backgroundColor: 'red',
+              color: 'white',
+              paddingTop: '2px',
+              paddingBottom: '1px'
+          }
+      },
+      fields: {
+          firstName: {
+              selector: '#chargify1',
+              label: 'FIRST NAME',
+              placeholder: 'John',
+              required: false,
+              message: 'First name is not valid. Please update it.',
+              maxlength: '30',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  input: {
+                      backgroundColor: '#fdfde1',
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      placeholder: { color: 'green' }
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          lastName: {
+              selector: '#chargify1',
+              label: 'LAST NAME',
+              placeholder: 'Doe',
+              required: false,
+              message: 'This field is not valid. Please update it.',
+              maxlength: '30',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  input: {
+                      backgroundColor: '#fdfde1',
+                      paddingTop: '2px',
+                      paddingBottom: '1px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          bankAccount: {
+            selector: '#chargify2',
+            required: true,
+            placeholder: 'Connect your bank account using Plaid first',
+            message: 'This field is not valid. Please update it.',
+            style: {
+                field: {
+                    backgroundColor: '#ffdfdf',
+                    padding: '3px',
+                    borderRadius: '5px'
+                },
+                input: {
+                    backgroundColor: '#fdfde1',
+                    paddingTop: '2px',
+                    paddingBottom: '1px'
+                },
+                label: {
+                    paddingTop: '2px',
+                    paddingBottom: '1px',
+                    fontSize: '11px'
+                },
+                message: { paddingTop: '2px', paddingBottom: '1px' }
+            }
+          },
+          accountHolderType: {
+              selector: '#chargify2',
+              label: 'Acct. Holder',
+              placeholder: 'Select One...',
+              required: true,
+              message: 'This field is not valid. Please update it.',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  input: {
+                      backgroundColor: '#fdfde1',
+                      paddingTop: '2px',
+                      paddingBottom: '1px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          address: {
+              selector: '#chargify3',
+              label: 'Address',
+              placeholder: '1234 Hill St',
+              required: false,
+              message: 'This field is not valid. Please update it.',
+              maxlength: '70',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  input: {
+                      backgroundColor: '#fdfde1',
+                      paddingTop: '2px',
+                      paddingBottom: '1px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          address2: {
+              selector: '#chargify3',
+              label: 'Address 2',
+              placeholder: '1234 Hill St',
+              required: false,
+              message: 'This field is not valid. Please update it.',
+              maxlength: '70',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  input: {
+                      backgroundColor: '#fdfde1',
+                      paddingTop: '2px',
+                      paddingBottom: '1px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          city: {
+              selector: '#chargify3',
+              label: 'City',
+              placeholder: 'Austin',
+              required: false,
+              message: 'This field is not valid. Please update it.',
+              maxlength: '30',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  input: {
+                      backgroundColor: '#fdfde1',
+                      paddingTop: '2px',
+                      paddingBottom: '1px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          country: {
+              selector: '#chargify3',
+              label: 'Country',
+              placeholder: 'Select...',
+              required: false,
+              message: 'This field is not valid. Please update it.',
+              maxlength: '2',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          state: {
+              selector: '#chargify3',
+              label: 'State',
+              placeholder: 'Select...',
+              required: false,
+              message: 'This field is not valid. Please update it.',
+              maxlength: '2',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          },
+          zip: {
+              selector: '#chargify3',
+              label: 'Zip Code',
+              placeholder: '10001',
+              required: false,
+              message: 'This field is not valid. Please update it.',
+              maxlength: '5',
+              style: {
+                  field: {
+                      backgroundColor: '#ffdfdf',
+                      padding: '3px',
+                      borderRadius: '5px'
+                  },
+                  input: {
+                      backgroundColor: '#fdfde1',
+                      paddingTop: '2px',
+                      paddingBottom: '1px'
+                  },
+                  label: {
+                      paddingTop: '2px',
+                      paddingBottom: '1px',
+                      fontSize: '11px'
+                  },
+                  message: { paddingTop: '2px', paddingBottom: '1px' }
+              }
+          }
+      }
+  });
+</script>
+
 ```
 
 ### Full Example with Direct Debit (GoCardless gateway)
