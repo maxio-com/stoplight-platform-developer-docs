@@ -17,7 +17,7 @@ Both methods of authentication assume you have previously generated API keys sec
 
 ## API
 
-The first method of interaction is through the API. API Authentication is implemented as [HTTP Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) over TLS (HTTPS).
+The first method of interaction is through the API. API Authentication is implemented as HTTP Basic Authentication over TLS (HTTPS).
 
 Your API login credentials are not the same as the credentials you use to log in to the web interface. You must obtain your API credentials separately, and you must connect to the API via TLS 1.2 (or better).
 
