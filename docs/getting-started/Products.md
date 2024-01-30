@@ -46,9 +46,9 @@ A simple curl example would be the following:
 curl -u <API_KEY>:X -H Accept:application/json -d @product_family.json -X POST https://<SUBDOMAIN>.chargify.com/product_families.json
 ```
 
-To create a product family using the application, please see the following documentation: [Creating Product Families](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction#product-families)
+To create a product family using the application, refer to the ["Creating Product Families" help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction#product-families) for more information.
 
-Please see [API Documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) for complete listing of input/output schema along with code examples in multiple programming languages.
+Please see [API Documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) for a complete listing of input/output schema, along with code examples in multiple programming languages.
 
 ## Product
 
