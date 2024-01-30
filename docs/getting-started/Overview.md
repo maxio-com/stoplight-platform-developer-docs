@@ -13,6 +13,5 @@ We are available 12am-12am CT Monday - Friday, excluding holidays.
 - [Contact our sales team](mailto:sales@maxio.com)
 - [Open a support ticket](https://maxio-chargify.zendesk.com/hc/en-us/requests/new)
 - [Send an email to support](mailto:support@chargify.com)
-- [Help Documentation](https://maxio-chargify.zendesk.com/hc/en-us#availability)
-- [Integrations](../ecosystem/Ecosystem.md#integrations)
-- [Twitter](https://twitter.com/WeAreMaxio)
+- [Search our help documentation](https://maxio-chargify.zendesk.com/hc/en-us#availability)
+- [Visit us on Twitter](https://twitter.com/WeAreMaxio)
