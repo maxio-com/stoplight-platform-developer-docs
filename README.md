@@ -1,4 +1,4 @@
-# Chargify Developer Documentation
+# Advanced Billing Developer Documentation
 
 Welcome to the Chargify Developer docs. This repo serves as reference to get started using Chargify as a developer.
 
