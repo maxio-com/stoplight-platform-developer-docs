@@ -12,7 +12,7 @@ With regards to products, there are three important aspects that are required fo
 * Creating the [product family](#product-family)
 * Creating the [product](#product)
 
-Before delving into this section, we recommend reviewing our ["Producst Introduction" help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction). 
+Before delving into this section, we recommend reviewing our ["Products Introduction" help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction). 
 
 ## Product Family
 
