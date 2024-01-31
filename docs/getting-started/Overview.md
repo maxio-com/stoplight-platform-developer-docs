@@ -13,7 +13,7 @@ This documentation will help you get started. If you have any questions, please 
 We are available 12am-12am CT Monday - Friday, excluding holidays.
 
 - [Contact our sales team](mailto:sales@maxio.com)
+- [Send an email to support](mailto:support@maxio.com)
 - [Open a support ticket](https://maxio-chargify.zendesk.com/hc/en-us/requests/new)
-- [Send an email to support](mailto:support@chargify.com)
 - [Search our help documentation](https://maxio-chargify.zendesk.com/hc/en-us#availability)
 - [Visit us on Twitter](https://twitter.com/WeAreMaxio)
