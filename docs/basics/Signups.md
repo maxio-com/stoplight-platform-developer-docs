@@ -4,7 +4,7 @@ tags: [Basics]
 
 # Signups
 
-Learn how to create signups (also called subscriptions) by signing up customers to products on your site. Before proceeding, we recommend familiarizing yourself with the  basis of how subscriptions work. Please review our [subscription documentation introduction](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405577172749) for further details. 
+Learn how to create signups (also called subscriptions) by signing up customers to products on your site. Before proceeding, we recommend familiarizing yourself with the  basis of how subscriptions work. Please review our [subscription help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405577172749) for further details. 
 
 ----------
 
