@@ -72,7 +72,7 @@ If you have too many slowed requests, or your individual account queue gets too 
 
 `Your request was denied due to a usage violation. You can track this request with support by referencing …`
 
-If you receive a `429 Too Many Requests` response, your code should be prepared to handle it by pausing its queries, waiting a few minutes, and then proceeding slower (or with less concurrency). Please feel free to [contact support](https://maxio-chargify.zendesk.com/hc/en-us/requests/new) so we can help describe what happened and why the request was blocked.
+If you receive a `429 Too Many Requests` response, your code should be prepared to handle it by pausing its queries, waiting a few minutes, and then proceeding slower (or with less concurrency). Please feel free to [contact support and open a support ticket](https://maxio-chargify.zendesk.com/hc/en-us/requests/new) so we can help describe what happened and why the request was blocked.
 
 ### Account-based Blocks
 
