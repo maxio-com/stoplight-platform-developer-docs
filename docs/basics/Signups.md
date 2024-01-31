@@ -8,9 +8,9 @@ Learn how to create signups (also called subscriptions) by signing up customers 
 
 ----------
 
-This guide on signups runs through the basics on creating subscriptions in Chargify, though Chargify can almost handle any scenario using API integration.
+This guide on signups runs through the basics on creating subscriptions in Advanced Billing, though Advanced Billing can almost handle any scenario using API integration.
 
-1. Chargify's [signup methods](#signup-methods)
+1. Advanced Billing [signup methods](#signup-methods)
 2. The [payment methods](#payment-methods) available for subscriptions
 3. How to handle customers with [multiple subscriptions](#multiple-subscriptions)
 4. Component [quantities](#components) and how they can be used to customize billing
@@ -19,16 +19,15 @@ This guide on signups runs through the basics on creating subscriptions in Charg
 
 There are a number of methods of actually signing up customers to your business. Please explore the following and see how they might be used in your scenario:
 
-* [Manually (within Chargify)](https://maxio-chargify.zendesk.com/hc/en-us/articles/6418438887309-Create-Subscriptions-Inside-Advanced-Billing)
+* [Manually (within Advanced Billing)](https://maxio-chargify.zendesk.com/hc/en-us/articles/6418438887309-Create-Subscriptions-Inside-Advanced-Billing)
 * [Public Signup Pages (PSP)](https://maxio-chargify.zendesk.com/hc/en-us/articles/6427493725453-Accept-Signups-with-Public-Signup-Pages?method=themes)
 * [API](#api)
-* [Chargify Direct](#chargify-direct)
 
 Not all methods will be applicable to your unique business, but the methods we provide can work for just about any business model you could possibly come up with.
 
-### Manually (within Chargify)
+### Manually (within Advanced Billing)
 
-The first opportunity for you to create simple subscriptions is within your Chargify account. Make sure you have at least one product that we can use in the following example. Please refer to this condensed [guide](https://maxio-chargify.zendesk.com/hc/en-us/articles/6418438887309-Create-Subscriptions-Inside-Advanced-Billing?method=standard) in order to create a simple subscription through the Chargify application.
+The first opportunity for you to create simple subscriptions is within your Advanced Billing account. Make sure you have at least one product that we can use in the following example. Please refer to this condensed [guide](https://maxio-chargify.zendesk.com/hc/en-us/articles/6418438887309-Create-Subscriptions-Inside-Advanced-Billing?method=standard) in order to create a simple subscription through the Advanced Billing application.
 
 This form of signup is useful for businesses that are of low volume (low number of subscriptions), and it's the fastest to work with since you don't need to integrate a thing.
 
@@ -38,9 +37,9 @@ You'll see just how simple this method is, but obviously you can't just sign up 
 
 ### Public Signup Pages (PSP)
 
-Public Pages are highly customizable white label pages that you can use as the public-facing side of your subscription business. They are a quick and easy way to integrate with the Chargify platform without having to worry about collecting credit card information or writing custom code yourself.
+Public Pages are highly customizable white label pages that you can use as the public-facing side of your subscription business. They are a quick and easy way to integrate with Advanced Billing without having to worry about collecting credit card information or writing custom code yourself.
 
-There are two types of Public Signup Pages available to merchants in all Chargify plans:
+There are two types of Public Signup Pages available to merchants in all Advanced Billing plans:
 
 1. A Public Signup Page is automatically created for each new product and allows people to sign up for any of your current active products.
 2. A [Self-Service Page](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404759627021#example-self-service-page) is automatically created for each active subscription and allows the customer to manage payment methods.  
@@ -49,9 +48,9 @@ If you need information on configuring the look, feel, and behavior of your Publ
 
 When using Public Signup Pages, you have a specific URL to which customers can be sent that will allow them to sign themselves up - creating the subscription that is then added to your site.
 
-We recommend reviewing how [Public Signup Pages work](https://maxio-chargify.zendesk.com/hc/en-us/articles/6418438887309-Create-Subscriptions-Inside-Advanced-Billing), in order to better understand the many ways Chargify can be integrated with your systems. Public Signup Pages can also be a useful tool during development to test a simple signup with our pre-made forms versus your form in order to troubleshoot.
+We recommend reviewing how [Public Signup Pages work](https://maxio-chargify.zendesk.com/hc/en-us/articles/6418438887309-Create-Subscriptions-Inside-Advanced-Billing), in order to better understand the many ways Advanced Billing can be integrated with your systems. Public Signup Pages can also be a useful tool during development to test a simple signup with our pre-made forms versus your form in order to troubleshoot.
 
-In some cases, the Public Signup Pages can't quite handle the specific scenario that you might need in your integration with Chargify - that's why we expose a public API for you to consume by your application.
+In some cases, the Public Signup Pages can't quite handle the specific scenario that you might need in your integration with Advanced Billing - that's why we expose a public API for you to consume by your application.
 
 ### API
 
@@ -92,39 +91,6 @@ For more information, see [API Documentation for Creating a Subscription](https:
 
 For more advanced subscription creation scenarios, please see [Advanced Subscription Creation Examples](../advanced/Expert-Usage.md#advanced-signup-examples).
 
-### Chargify Direct
-
-| ❗️  Please note that Chargify Direct has been deprecated in favor of Chargify.js and its support for multi-gateways is limited only to default gateways  |
-|-----------------------------------------------------------------------------|
-
-Chargify Direct allows you to create Chargify resources (such as Subscriptions) via a form on your own website that posts directly to Chargify. After Chargify receives the form submission, the user is redirected back to your own site. The redirection communicates the result of the submission so that your website can decide how to respond to the user. This flow is sometimes called “transparent redirect” within the industry.
-
-Example:
-
-```html
-<form action="https://api.chargify.com/api/v2/signups" method="post">
-  <!-- Secure Parameters -->
-  <input type="hidden" name="secure[api_id]" value="my_api_id"/>
-  <input type="hidden" name="secure[data]" value="redirect_uri=#"/>
-  <input type="hidden" name="secure[signature]" value="the_calculated_signature_here"/>
-  <!-- Resource parameters here-->
-  <!-- For brevity, this form contains no labels, only inputs :) -->
-  <input type="hidden" name="signup[product][handle]" value="basic" />
-  <input type="text" name="signup[customer][first_name]" value="Alysa" />
-  <input type="text" name="signup[customer][last_name]" value="Test" />
-  <input type="text" name="signup[customer][reference]" value="1234-AB" />
-  <input type="text" name="signup[customer][email]" value="alysa@example.com" />
-  <input type="text" name="signup[payment_profile][first_name]" value="Alysa" />
-  <input type="text" name="signup[payment_profile][last_name]" value="Test" />
-  <input type="text" name="signup[payment_profile][card_number]" value="1" />
-  <input type="text" name="signup[payment_profile][expiration_month]" value="10" />
-  <input type="text" name="signup[payment_profile][expiration_year]" value="2020" />
-  <input type="submit" value="Submit"/>
-</form>
-```
-
-In the above example, you would need to use the correct `api_id`, set an appropriate `data` value and calculate the correct `signature`. The system will not allow submissions if the basic [authentication](../getting-started/Authentication.md) requirements are not met.
-
 ## Payment Methods
 
 The Payment Method for a subscriber can be either automatic or invoice Billing. As a reminder, with automatic billing, the customer is automatically charged when the subscription renews. With invoice billing, the customer is not automatically charged when the subscription is renewed. At the time of renewal, an invoice is created and optionally sent to the customer. You can then record the payments manually for the invoice when you receive them from the customer.
@@ -142,9 +108,9 @@ The portion of the address that houses the [country information](https://maxio-c
 
 ## Multiple Subscriptions
 
-Chargify doesn't limit you to only allowing one single subscription per customer, you can have multiple subscriptions for a single customer using separate or linked payment methods.
+Advanced Billing doesn't limit you to only allowing one single subscription per customer, you can have multiple subscriptions for a single customer using separate or linked payment methods.
 
-In the following example, the existing customer with `reference` (shown as `customer_reference` below) value `1234-AB` will be subscribed to the product specified. You may also specify the customer_id, but it's far more useful to map a user on your system to a customer on Chargify using this reference value. It's commonly filled with the user's unique identifier (ie. the userID) which makes referencing the customer in Chargify very simple as there are customer reference value filters in many methods.
+In the following example, the existing customer with `reference` (shown as `customer_reference` below) value `1234-AB` will be subscribed to the product specified. You may also specify the customer_id, but it's far more useful to map a user on your system to a customer on Advanced Billing using this reference value. It's commonly filled with the user's unique identifier (ie. the userID) which makes referencing the customer in Advanced Billing very simple as there are customer reference value filters in many methods.
 
 ```json
 {
@@ -160,16 +126,6 @@ In the following example, the existing customer with `reference` (shown as `cust
 }
 ```
 For more information about the `customer_reference` and `customer_id` values, please see the [API documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription).
-
-Chargify Direct can also be used to create an additional subscription for an existing customer by including the customer reference or customer ID. The subscription can optionally re-use an existing payment profile by including a payment profile ID belonging to that customer.
-
-```html
-<input type="hidden" name="signup[customer][reference]" value="abc-123" />
-or
-<input type="hidden" name="signup[customer][id]" value="12345" />
-
-<input type="hidden" name="signup[payment_profile][id]" value="67890" />
-```
 
 ## Components
 
@@ -202,10 +158,10 @@ One very common initial signup step is to allocate a quantity of one or more com
 
 For more information about components and how to use this great feature to customize your signup process - see [components](./Components.md).
 
-For deeper learning about how components function within Chargify, we recommend the following resources:
+For deeper learning about how components function within Advanced Billing, we recommend the following resources:
 
 + [Setting component allocations](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404527849997)
-+ [Building components in Chargify](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405020625677#creating-components)
++ [Building components in Advanced Billing](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405020625677#creating-components)
 
 
 ----------
