@@ -4,7 +4,7 @@ tags: [Basics]
 
 # Sync
 
-After creating and managing subscriptions, you might need a way for your application to know about the state of a customers subscription. This can be done either directly through the API or by Chargify notifying your application using the handy [webhooks](https://chargify.zendesk.com/hc/en-us/articles/4407912597403) feature.
+After creating and managing subscriptions, you might need a way for your application to know about the state of a customers subscription. This can be done either directly through the API or by Advanced Billing notifying your application using the handy [webhooks](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405568068365-Webhooks-Introduction) feature.
 
 ----------
 
@@ -34,44 +34,43 @@ For more detailed information, see API documentation on [reading the subscriptio
 
 ### Best Practices
 
-The following are some best practices that we would suggest regarding using API and how you synchronize your application with your Chargify data:
+The following are some best practices that we would suggest regarding using API and how you synchronize your application with your Advanced Billing data:
 
 1. Your application should try and not depend on another service to control access directly. Should your API call fail, for any reason, then your customer might not receive the best user experience depending on how you've implemented this.
-2. You should try and limit the direct calls to Chargify if (and when) possible as there is a limit to how fast (and how often) the Chargify API will respond to very quick and numerous API calls. For more information, see [limits and blocks](https://developers.chargify.com/docs/developer-docs/fb8406f1615d1-api-guidelines#about-limits--blocks).
-q
+2. You should try and limit the direct calls to Advanced Billing if (and when) possible as there is a limit to how fast (and how often) the Advanced Billing API will respond to very quick and numerous API calls. For more information, see [limits and blocks](https://developers.chargify.com/docs/developer-docs/fb8406f1615d1-api-guidelines#about-limits--blocks).
 
 ## Webhooks
 
-Webhooks offer a way to quickly find out about changes to your Subscriptions that happen within Chargify. You can subscribe to events of interest, and we’ll post data to the URL you specify when one of those events occurs.
+Webhooks offer a way to quickly find out about changes to your Subscriptions that happen within Advanced Billing. You can subscribe to events of interest, and we’ll post data to the URL you specify when one of those events occurs.
 
-For more general information, see [webhooks](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405568068365-Webhooks-Introduction#webhooks-introduction-0-0).
+For more general information, see the [help article on Webhooks](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405568068365-Webhooks-Introduction).
 
 ### Using Webhooks
 
 To begin using webhooks, you must first create an publicly accessible endpoint which has the following characteristics:
 
 1. We allow HTTP endpoints only while in test mode. You'll be required to switch to HTTPS before you can move to live mode.
-2. The endpoint you provide to Chargify must be on port 80 or 443, these are the only supported ports.
+2. The endpoint you provide to Advanced Billing must be on port 80 or 443, these are the only supported ports.
 3. Your endpoint must accept HTTP POST requests to your URL with a form-encoded body.
 
-Once you have a public URL which Chargify can attempt to send data to, then you can begin accepting requests and sending the expected `200 OK` response.
+Once you have a public URL which Advanced Billing can attempt to send data to, then you can begin accepting requests and sending the expected `200 OK` response.
 
 In general, the normal process for using webhooks is:
 
-1. At Chargify, some event to which your webhook URL is subscribed occurs. For example, a new customer has signed up on your site - creating a new subscription.
-2. At some point, Chargify makes a request to your webhook URL which contains the signup event data.
+1. In Advanced Billing, some event to which your webhook URL is subscribed occurs. For example, a new customer has signed up on your site - creating a new subscription.
+2. At some point, Advanced Billing makes a request to your webhook URL which contains the signup event data.
 3. You receive the signup event data.
 4. You verify the signup event data (using signature validation).
 5. You perform some action using the validated event data, like sending a welcome email to the customer or provision your services.
-6. You respond `200 OK` to the initial request, thereby completing the webhook transaction with Chargify.
+6. You respond `200 OK` to the initial request, thereby completing the webhook transaction with Advanced Billing.
 
-Please see [webhooks](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645-Webhooks-Reference#events) documentation for more information.
+Please see the [help article on webhook events](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645-Webhooks-Reference#events) for more information.
 
 ### Configuring Webhooks
 
-Webhooks are a simple method of allowing Chargify system to "speak" directly with yours, rather than having your system poll Chargify to always obtain the latest information.
+Webhooks are a simple method of allowing Advanced Billing system to "speak" directly with yours, rather than having your system poll Advanced Billing to always obtain the latest information.
 
-Webhooks, as configured in your Chargify account, are as simple as:
+Webhooks, as configured in your Advanced Billing account, are as simple as:
 
 * A [URL](https://en.wikipedia.org/wiki/Uniform_Resource_Locator)
 * A set of [events](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645#events) that you wish to subscribe to
@@ -84,9 +83,9 @@ Please see [configuring webhooks](https://maxio-chargify.zendesk.com/hc/en-us/ar
 
 For initial testing, there are a number of options that you can use.
 
-Before you have a publicly accessible endpoint available, or if you just are looking at webhook for troubleshooting - we suggest using a tool like https://webhook.site/. Webhook.site provides a temporary URL that Chargify may send messages to, allowing you to view them easily within their application. The "bins" are temporary. This can provide quick insight into the content or headers Chargify will be sending.
+Before you have a publicly accessible endpoint available, or if you just are looking at webhook for troubleshooting - we suggest using a tool like https://webhook.site/. Webhook.site provides a temporary URL that Advanced Billing may send messages to, allowing you to view them easily within their application. The "bins" are temporary. This can provide quick insight into the content or headers Advanced Billing will be sending.
 
-Chargify's webhook feature provides a test method that will send a simple message to any single webhook URL you specify. This test message is useful for verifying connectivity between your URL and Chargify,
+Advanced Billing webhooks provide a test method that will send a simple message to any single webhook URL you specify. This test message is useful for verifying connectivity between your URL and Advanced Billing.
 
 ### Receiving a Webhook Notification
 
@@ -120,7 +119,7 @@ You may either retrieve the signature value through the header `X-Chargify-Webho
 ```http
 http://example.com/?signature={signature_hmac_sha_256}
 ```
-Please see [webhook signature verification](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645-Webhooks-Reference#webhook-verification) for more information.
+Please see the [webhook signature verification help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405357509645-Webhooks-Reference#webhook-verification) for more information.
 
 ### Best Practices
 
