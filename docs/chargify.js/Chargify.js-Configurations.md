@@ -19,7 +19,7 @@ chargify.load({
 });
 ```
 
-You can find your public API key in the **Config --> Integrations** section on your site's page in Chargify.
+You can find your public API key in the **Config --> Integrations** section on your site's page in Advanced Billing.
 
 `chargify.load` accepts also optional parameters. Here is a more complete example:
 
@@ -35,7 +35,7 @@ chargify.load({
     // form type
     type: 'card',
 
-    // points to your Chargify site
+    // points to your Advanced Billing site
     serverHost: 'https://acme.chargify.com',
 
     // flag to show/hide the credit card image
@@ -136,7 +136,7 @@ Selectors control where the iframe will appear on the page. By choosing a single
             // payment profile type you will accept
             type: 'card',
 
-            // points to your Chargify site
+            // points to your Advanced Billing site
             serverHost: 'https://acme.chargify.com'
         });
     </script>
@@ -247,7 +247,7 @@ chargify.load({
     // set this to true to skip automatic injection of CSS styles
     //customGoCardlessModalStyles: true,
 
-    // points to your Chargify site
+    // points to your Advanced Billing site
     serverHost: 'https://acme.chargify.com',
 });
 ```
@@ -285,7 +285,7 @@ chargify.load({
     // set this to true to skip automatic injection of CSS styles
     //customGoCardlessModalStyles: true,
 
-    // points to your Chargify site
+    // points to your Advanced Billing site
     serverHost: 'https://acme.chargify.com',
 });
 ```
@@ -304,16 +304,16 @@ chargify.load({
     // form type
     type: 'direct_debit',
 
-    // points to your Chargify site
+    // points to your Advanced Billing site
     serverHost: 'https://acme.chargify.com',
 });
 ```
 
 ## Braintree Advanced Fraud Protection Configuration
 
-In order to use Braintree Advanced Fraud Protection, you need to first set it up in Chargify.
-See [Chargify Help Docs](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404819783309#braintree-advanced-fraud-protection) for details.
-Once set up in Chargify, you simply need to use the `deviceData` option in Chargify.js:
+In order to use Braintree Advanced Fraud Protection, you need to first set it up in Advanced Billing.
+See the [Advanced Billing help artile](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404819783309#braintree-advanced-fraud-protection) for details.
+Once set up in Advanced Billing, you simply need to use the `deviceData` option in Chargify.js:
 
 ```javascript
 chargify.load({
@@ -327,7 +327,7 @@ chargify.load({
     // form type
     type: 'card',
 
-    // points to your Chargify site
+    // points to your Advanced Billing site
     serverHost: 'https://acme.chargify.com',
 
     deviceData: true,
@@ -369,7 +369,7 @@ chargify.load({
     // selector for Apple Pay button (Apple Pay button will be shown inside of it)
     selectorForApplePayButton: '#apple-pay',
 
-    // points to your Chargify site
+    // points to your Advanced Billing site
     serverHost: 'https://acme.chargify.com',
 });
 ```
@@ -407,7 +407,7 @@ chargify.load({
     // selector for PayPal button (PayPal button will be shown inside of it)
     selectorForPayPalButton: '#pay-pal',
 
-    // points to your Chargify site
+    // points to your Advanced Billing site
     serverHost: 'https://acme.chargify.com',
 });
 ```
@@ -473,7 +473,7 @@ For more details on how the Plaid authentication module works, please check the 
 
 ## Other callbacks
 
-Besides callbacks described above and related to given features or gateways, chargify.js makes available `onCardTypeDetected` callback.
+Besides callbacks described above and related to given features or gateways, Chargify.js makes available `onCardTypeDetected` callback.
 
 ```javascript
 chargify.load(configObject, {
@@ -492,9 +492,9 @@ Returned card types: `american-express`, `diners`, `diners-club`, `discover`, `j
 | Field name | Example | Required? | Description |
 | ---------- | ------  | -------- | ----------- |
 | selector  | `#chargify-form` | Optional | Pulls in an iframe to the page. Can be defined on the overall form or within each field. |
-| publicKey | `chjs_g3ifjs...`  | Required | Authenticates your Chargify.js form to a specific Chargify site. |
+| publicKey | `chjs_g3ifjs...`  | Required | Authenticates your Chargify.js form to a specific Advanced Billing site. |
 | type      | `card`   | Required | The type of payment profile the form will accept. Can be `card`, `bank`, `apple_pay`, `pay_pal` or `gocardless`. |
-| serverHost | `https://acme.chargify.com` | Required | The full URL of your Chargify site. |
+| serverHost | `https://acme.chargify.com` | Required | The full URL of your Advanced Billing site. |
 | gatewayHandle | `stripe` | Optional | If Multi-Gateway is enabled, the particular gateway to send payment profiles to. |
 | hideCardImage | `true`  | Optional | Choose whether to display the image of a credit card. |
 | optionalLabel | `(optional)` | Optional | A label that will appear to denote when some fields are optional. Useful for translations. |
