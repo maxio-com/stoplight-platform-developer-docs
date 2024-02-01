@@ -4,7 +4,7 @@ tags: [Ecosystem]
 
 # API Code Samples
 
-The following sample code has been contributed by our community of developers to help you get started with Chargify faster. The code they’ve given back to everyone represents a lot of time & work that you can benefit from as you implement Chargify with your app!
+The following sample code has been contributed by our community of developers to help you get started with Advanced Billing faster. The code they’ve given back to everyone represents a lot of time & work that you can benefit from as you implement Advanced Billing with your app!
 
 If you have usage examples or code libraries in other languages, please let us know.
 
@@ -21,19 +21,19 @@ Please note that these samples were graciously given to us by our users, so we d
 
 ## Ruby/Rails
 
-- [http://github.com/chargify/chargify_api_ares](http://github.com/chargify/chargify_api_ares): This is a community maintained gem that is managed by the Chargify team. Contributions are welcome! It uses ActiveResource, works well with Rails, and is a good option for easy integration.
-- [http://github.com/pengwynn/chargify](http://github.com/pengwynn/chargify): This is a Chargify gem that uses HTTParty. It was created by @pengwynn, who is one of our active beta testers. It has tests by using a Chargify “mock”.
-- [http://github.com/jsmestad/chargify](http://github.com/jsmestad/chargify): This is a Chargify gem by @jsmestad, another of our active users.
+- [http://github.com/chargify/chargify_api_ares](http://github.com/chargify/chargify_api_ares): This is a community maintained gem that is managed by the Advanced Billing team. Contributions are welcome! It uses ActiveResource, works well with Rails, and is a good option for easy integration.
+- [http://github.com/pengwynn/chargify](http://github.com/pengwynn/chargify): This is a Advanced Billing gem that uses HTTParty. It was created by @pengwynn, who is one of our active beta testers. It has tests by using a Chargify “mock”.
+- [http://github.com/jsmestad/chargify](http://github.com/jsmestad/chargify): This is a Advanced Billing gem by @jsmestad, another of our active users.
 
 ## Python/Django
 
-- [http://github.com/gdoermann/django-chargify](http://github.com/gdoermann/django-chargify): A Django wrapper for Chargify by @gdoermann
+- [http://github.com/gdoermann/django-chargify](http://github.com/gdoermann/django-chargify): A Django wrapper for Advanced Billing by @gdoermann
 - [http://github.com/getyouridx/pychargify](http://github.com/getyouridx/pychargify): A Python API wrapper by one of our active beta testers.
 
 ## .NET
 
 - [https://github.com/kfrancis/chargify-dot-net](https://github.com/kfrancis/chargify-dot-net): A .NET API wrapper and complete sample app by one of our own (Kori Francis, @korifrancis)
-- [https://github.com/kfrancis/Chargify2](https://github.com/kfrancis/Chargify2): A .NET port of the Chargify Direct Chargify wrapper by Kori Francis.
+- [https://github.com/kfrancis/Chargify2](https://github.com/kfrancis/Chargify2): A .NET port of the Chargify Direct Advanced Billing wrapper by Kori Francis.
 
 ## Java/Scala
 
@@ -41,4 +41,4 @@ Please note that these samples were graciously given to us by our users, so we d
 
 ## JavaScript
 
-- [https://github.com/natevw/node-chargify](https://github.com/natevw/node-chargify): A simple node.js wrapper for the Chargify REST API, by (Nathan Vander Wilt, @natevw)
+- [https://github.com/natevw/node-chargify](https://github.com/natevw/node-chargify): A simple node.js wrapper for the Advanced Billing REST API, by (Nathan Vander Wilt, @natevw)
