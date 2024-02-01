@@ -2,7 +2,7 @@
 tags: [Ecosystem]
 ---
 
-# Ecosystem
+# Overview
 
 One of the many reasons to use Advanced Billing is the immense feature set and surrounding community.
 
