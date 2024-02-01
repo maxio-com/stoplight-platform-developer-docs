@@ -207,7 +207,7 @@ document.querySelector('#chargify-form').addEventListener('submit', function(eve
         function error(err) {
             // be aware that an error can occur for different reasons
             // while saving billing info in the gateway or directly
-            // on the Chargify backend. It is rare but still possible.
+            // on the backend. It is rare but still possible.
             // Remember to make the user aware the presence of an error
             console.log('token ERROR - err: ', err);
         }
