@@ -19,9 +19,9 @@ The following examples all include selectors named sequentially as chargify1, ch
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chargify</title>
+    <title>Maxio Advanced Billing</title>
 
-    <script src="https://js.chargify.com/latest/chargify.js"></script>  <!-- This links to the Chargify hosted iframes for Chargify.js -->
+    <script src="https://js.chargify.com/latest/chargify.js"></script>  <!-- This links to the Maxio hosted iframes for Chargify.js -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <style>
       body {
