@@ -4,7 +4,7 @@ tags: [Basics]
 
 # Components
 
-Components are a great way to customize how your customers can use your products or services, and provide an excellent mechanism for increasing the [MRR](https://baremetrics.com/academy/saas-calculate-mrr) per subscription through new features you might develop.
+Components are a great way to customize how your customers can use your products or services, and provide an excellent mechanism for increasing the [MRR](https://www.maxio.com/saaspedia#saaspedia_mrr-articles) per subscription through new features you might develop.
 
 ----------
 
