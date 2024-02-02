@@ -8,13 +8,13 @@ One of the many reasons to use Advanced Billing is the immense feature set and s
 
 ## Integrations
 
-Advanced Billing has partnered with many SaaS solutions to help you manage your business. The complete list of integrations is available [here](https://www.chargify.com/integration-marketplace/).
+Advanced Billing has partnered with many SaaS solutions to help you manage your business. The complete list of integrations is available [on Maxio.com](https://www.maxio.com/integrations).
 
 For more information about existing integrations, please see this [Integrations help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405429933069).
 
 ## Account
 
-Your account can be reached upon logging in at [https://app.chargify.com/login](https://app.chargify.com/login).
+Your account can be reached upon logging in at [app.chargify.com](https://app.chargify.com/sso_login.html).
 
 ## Development
 
@@ -30,7 +30,7 @@ While you can certainly write your own code to interact with Advanced Billing, i
 
 Advanced Billing no longer supports TLS 1.0 or TLS 1.1 over HTTPS on the chargify.com domain. Any older browsers or API clients that do not support TLS 1.2 will no longer work. This change is mandated by the PCI Security Council and affects all merchants and service providers processing or transmitting credit card data.
 
-For more information, please see our [help article on security](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404986900493).
+For more information, please see our [help article on Security](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404986900493).
 
 **Payment Card Industry (PCI)**
 
