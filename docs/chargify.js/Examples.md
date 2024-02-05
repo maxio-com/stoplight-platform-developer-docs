@@ -11,7 +11,7 @@ The following examples all include selectors named sequentially as chargify1, ch
 
 ## Example of Chargify.js Form
 
-| ![Chargify.js Example Form](../../assets/images/docs/chargify.js/Examples.md/example.jpg) |
+| ![Chargify.js Example Form](../../assets/images/docs/chargify.js/Examples.md/maxio-example.png) |
 |:--:|
 | **Example of subscriber-facing HTML form** |
 
