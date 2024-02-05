@@ -4,7 +4,7 @@ tags: [Ecosystem]
 
 # API Code Samples
 
-The following sample code has been contributed by our community of developers to help you get started with Advanced Billing faster. The code they’ve given back to everyone represents a lot of time & work that you can benefit from as you implement Advanced Billing with your app!
+The following sample code has been contributed by our community of developers to help you get started with Advanced Billing faster. The code they’ve provided to everyone represents a lot of time and work that you can benefit from as you implement Advanced Billing with your app!
 
 If you have usage examples or code libraries in other languages, please let us know.
 
