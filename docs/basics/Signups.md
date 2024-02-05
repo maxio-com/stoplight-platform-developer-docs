@@ -31,7 +31,7 @@ The first opportunity for you to create simple subscriptions is within your Adva
 
 This form of signup is useful for businesses that are of low volume (low number of subscriptions), and it's the fastest to work with since you don't need to integrate a thing.
 
-For more information about subscriptions, please see the [subscriptions](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405577172749) documentation.
+For more information about subscriptions, please see the [Subscriptions help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405577172749).
 
 You'll see just how simple this method is, but obviously you can't just sign up customers manually forever - there's a great solution for that!
 
@@ -44,7 +44,7 @@ There are two types of Public Signup Pages available to merchants in all Advance
 1. A Public Signup Page is automatically created for each new product and allows people to sign up for any of your current active products.
 2. A [Self-Service Page](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404759627021#example-self-service-page) is automatically created for each active subscription and allows the customer to manage payment methods.  
 
-If you need information on configuring the look, feel, and behavior of your Public Page, please see [Public Page Default Settings](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405398868749) & [Individual Page Settings](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405267754381).
+If you need information on configuring the look, feel, and behavior of your Public Page, please see [Public Page Default Settings](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405398868749) and [Individual Page Settings](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405267754381).
 
 When using Public Signup Pages, you have a specific URL to which customers can be sent that will allow them to sign themselves up - creating the subscription that is then added to your site.
 
