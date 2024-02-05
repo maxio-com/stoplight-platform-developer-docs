@@ -12,7 +12,7 @@ When you are new to Advanced Billing, we will create your first site for you aft
 
 ## Site Access
 
-To manage your sites, [login to Advanced Billing](https://app.chargify.com/sso_login.html) and view your sites.
+To manage your sites, [login to Advanced Billing](https://app.chargify.com/login) and view your sites.
 
 From here you can:
 
