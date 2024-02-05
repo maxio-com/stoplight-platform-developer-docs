@@ -1,7 +1,7 @@
 # 2024-02-05 SDK Release Announcement
 
 
-Starting Feb 2024, Maxio offers Advanced Billing managed SDKs to support the following community tech stacks: 
+Starting Feb 2024, Maxio offers Advanced Billing-managed SDKs to support the following community tech stacks: 
  
  + [Python](https://pypi.org/project/maxio-advanced-billing-sdk/1.0.0/)
  + [Ruby](https://rubygems.org/gems/maxio-advanced-billing-sdk/versions/1.0.0)
