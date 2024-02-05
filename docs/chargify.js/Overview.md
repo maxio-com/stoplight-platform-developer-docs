@@ -123,7 +123,7 @@ In addition to creating new subscribers, use Chargify.js to create new payment m
 + An existing subscriber completes a payment-based form on your site, for the purpose of adding a new credit card to their account
 + Advanced Billing returns a one-time token to use for adding a new payment method to an existing subscription
 
-❗️ Chargify.js is not compatible with updating existing credit cards in Advanced Billing. You may only add new cards to existing subscriptions, or create new subscriptions with recently tokenized card.
+| ❗️ Chargify.js is not compatible with updating existing credit cards in Advanced Billing. You may only add new cards to existing subscriptions, or create new subscriptions with recently tokenized card. |
 
 ## Getting Started
 
