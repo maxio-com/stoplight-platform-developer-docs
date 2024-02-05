@@ -10,7 +10,7 @@ After creating subscriptions, either you or your customers will need to manage t
      
 ## One-Time Charges
 
-Chargify allows you to add charges to a subscription outside of the regular recurring billing cycle. This is called a ["one-time" charge](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404619484685#one-time-charges-0-0) though it simply refers to a charge that happens once and occurs from either submitting a charge via the API or by manually creating the charge in the app.
+Advanced Billing allows you to add charges to a subscription outside of the regular recurring billing cycle. This is called a ["one-time" charge](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404619484685#one-time-charges-0-0) though it simply refers to a charge that happens once and occurs from either submitting a charge via the API or by manually creating the charge in the app.
 
 For example, if you wanted to add a charge of $1 - it would look like the following:
 
@@ -33,7 +33,7 @@ In general, coupons and adjustments are other methods of changing the amount bil
 
 ### Coupons
 
-Are you looking to offer current or potential customers a discount? Chargify handles all of your promotional codes, discounts, and coupons with ease. Simply name the promotion, set your desired promo code, and enter the discount. You even have the power to control the expiration date and how long the promotion runs for in conjunction with your products.
+Are you looking to offer current or potential customers a discount? Advanced Billing handles all of your promotional codes, discounts, and coupons with ease. Simply name the promotion, set your desired promo code, and enter the discount. You even have the power to control the expiration date and how long the promotion runs for in conjunction with your products.
 
 Let's create a coupon that we can then use when creating our next subscription.
 
@@ -120,7 +120,7 @@ For the public service page card update, you merely direct them to a specific UR
 
 * The `subdomain` is just your subdomain. Our imaginary company "Acme"'s URL would start like the following: `https://acme.chargify.com`
 
-* The `subscription_id` would be the integer ID of the subscription as it is in the Chargify site/subdomain.
+* The `subscription_id` would be the integer ID of the subscription as it is in the Advanced Billing site/subdomain.
 
 * The `token` is calculated using the first 10 characters of the SHA-1 hex digest of this message:
 
@@ -131,11 +131,11 @@ token = SHA1(message)[0..9]
 
 For more information about the self-service card update public page, please see [the following](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404759627021#obtaining-the-self-service-page-url).
 
-Your users can also self-service update their payment method if using the Chargify Billing Portal feature, please see [here](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404759627021#updating-payment-information-via-the-billing-portal) for more information.
+Your users can also self-service update their payment method if using the Advanced Billing Portal feature, please see [here](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404759627021#updating-payment-information-via-the-billing-portal) for more information.
 
 ### Updating via API
 
-Updating the API is very useful in situations where you are more directly integrating with Chargify.
+Updating the API is very useful in situations where you are more directly integrating with Advanced Billing.
 
 There are many methods of performing this action via the API, you can:
 
@@ -255,10 +255,10 @@ As an example, here are a few examples of actions that can be performed via the 
 + Credit card updates
 + Component purchase / allocation updates 
 
-For more information on the Chargify Billing Portal, we encourage you to view our full documentation [here.](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405529728141)
+For more information on the Advanced Billing Portal, we encourage you to view our full documentation [here.](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405529728141)
 
 ----------
 
 # Next Steps
-- Keeping your application data [synchronized](./Sync.md) with Chargify
+- Keeping your application data [synchronized](./Sync.md) with Advanced Billing
 - Subscription API [documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzODg-create-subscription)

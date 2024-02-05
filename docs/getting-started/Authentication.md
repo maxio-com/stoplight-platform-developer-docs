@@ -4,22 +4,20 @@ tags: [Getting Started]
 
 # Authentication
 
-Learn how to use API authentication to communicate directly with Chargify from any programming language that you wish.
+Learn how to use API authentication to communicate directly with Advanced Billing from any programming language that you wish.
 
 ----------
 
 There are two methods of authentication, depending on what you are accessing:
 
 * [Chargify API](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api) 
-* [Chargify Direct](./ZG9jOjE0NjAzNDE3-introduction) (deprecated in favor of [Chargify.js](./ZG9jOjE0NjAzNDI0-overview))
+* [Chargify.js](./ZG9jOjE0NjAzNDI0-overview)
 
-Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see ["Obtaining Credentials"](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404829390349-Users#users-0-0).
-
-For most integrations, the API will be the easiest to implement. Chargify Direct is a method of very securely creating subscriptions where the information is posted directly to Chargify and none of the payment information is passed through your code. Your requirements will dictate the need to use one or the other (or both).
+Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see [this article on Adding Users](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404829390349-Users#adding-users).
 
 ## API
 
-The first method of interaction is through the API. API Authentication is implemented as [HTTP Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) over TLS (HTTPS).
+The first method of interaction is through the API. API Authentication is implemented as HTTP Basic Authentication over TLS (HTTPS).
 
 Your API login credentials are not the same as the credentials you use to log in to the web interface. You must obtain your API credentials separately, and you must connect to the API via TLS 1.2 (or better).
 
@@ -41,11 +39,9 @@ curl --request GET \
   --header 'content-type: application/json'
 ```
 
+❗️ Please note, the API is case-sensitive.
+
 For more information about API authentication, please see our [API documentation/example](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#authentication).
-
-## Chargify Direct
-
-Please see our dedicated section on how to [authenticate with Chargify Direct.](../chargify-direct/Authentication.md)
 
 ----------
 

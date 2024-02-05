@@ -6,11 +6,11 @@ tags: [Chargify.js]
 
 ## Using Chargify.js
 
-Chargify.js is a powerful tool that can be used to streamline your existing API-based workflows in Chargify. Chargify.js can be used to easily contruct signup and payment profile updates on your existing sites.
+Chargify.js is a powerful tool that can be used to streamline your existing API-based workflows in Advanced Billing. Chargify.js can be used to easily contruct signup and payment profile updates on your existing sites.
 
 ## How it Works
 
-Chargify provides transparent `iframes` that allow you to customize a customer's payment form. This approach ensures the you meet the latest [PCI compliance requirements.](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404889785869)
+Advanced Billing provides transparent `iframes` that allow you to customize a customer's payment form. This approach ensures the you meet the latest [PCI compliance requirements.](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404889785869)
 
 When a customer submits your payment form, Chargify.js sends the customer payment information to be securely stored in your payment gateway.  In return, a one-time token is generated for you to use to complete the subscription process using our API. The one-time-payment token references the payment information that is securely stored in your gateway.
 
@@ -114,16 +114,16 @@ With this token you can create a subscription or payment profile assigned to the
 Use Chargify.js to allow new subscribers to securely enter their payment information from your site. Instead of sending a `credit_card_attribute` with your `POST` to the `/subscriptions` endpoint, your workflow will closely follow this outline:
 
 + A potential subscriber will complete a payment-based form on your site
-+ Chargify returns a one-time token for you to use to complete the subscription request to the `/subscriptions` endpoint
++ Advanced Billing returns a one-time token for you to use to complete the subscription request to the `/subscriptions` endpoint
 
 ## Updating Existing Payment Methods
 
 In addition to creating new subscribers, use Chargify.js to create new payment methods. This workflow allows your existing subscribers to enter new card information on your site. From here, you'll use the token to send a `POST` to the `/payment_profiles` to create a new payment method.
 
 + An existing subscriber completes a payment-based form on your site, for the purpose of adding a new credit card to their account
-+ Chargify returns a one-time token to use for adding a new payment method to an existing subscription
++ Advanced Billing returns a one-time token to use for adding a new payment method to an existing subscription
 
-❗️ Chargify.js is not compatible with updating existing credit cards in Chargify. You may only add new cards to existing subscriptions, or create new subscriptions with recently tokenized card.
+❗️ Chargify.js is not compatible with updating existing credit cards in Advanced Billing. You may only add new cards to existing subscriptions, or create new subscriptions with recently tokenized card.
 
 ## Getting Started
 
@@ -133,9 +133,9 @@ In addition to creating new subscribers, use Chargify.js to create new payment m
 <script src="https://js.chargify.com/latest/chargify.js"></script>
 ```
 
-We recommend using the latest Chargify-hosted version of Chargify.js. This version is regularly updated to be compatible with the rest of the system.
+We recommend using the latest Advanced Billing-hosted version of Chargify.js. This version is regularly updated to be compatible with the rest of the system.
 
-2) Instantiate the Chargify variable on the page, or include it in a separate file attached to your frontend form:
+2) Instantiate the Advanced Billing variable on the page, or include it in a separate file attached to your frontend form:
 
 ```javascript
 var chargify = new Chargify();
@@ -143,7 +143,7 @@ var chargify = new Chargify();
 
 3) [Generate a public key](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405281550477#key-pair-chargifyjs). This will be separate from your API key, which must be kept private.
 
-4) Load Chargify with the authentication and customizations you desire. We  have a [full article here dedicated to this topic](./Chargify.js-Configurations.md).
+4) Load Advanced Billing with the authentication and customizations you desire. We  have a [help article dedicated to this topic](./Chargify.js-Configurations.md).
 
 5) Based on the selectors you have configured within `Chargify.load`, add those to your main form. Here's an example with some basic configuration included inline with a single selector to pull in all iframes:
 
@@ -179,14 +179,14 @@ var chargify = new Chargify();
             // payment profile type you will accept
             type: 'card',
 
-            // points to your Chargify site
+            // points to your Advanced Billing site
             serverHost: 'https://acme.chargify.com'
         });
     </script>
 </html>
 ```
 
-6) You should have a basic form at this point. Next, interrupt the submission of the form to send billing information to Chargify and get a one time token in exchange.
+6) You should have a basic form at this point. Next, interrupt the submission of the form to send billing information to Advanced Billing and get a one time token in exchange.
 
 ```javascript
 document.querySelector('#chargify-form').addEventListener('submit', function(event) {
@@ -207,7 +207,7 @@ document.querySelector('#chargify-form').addEventListener('submit', function(eve
         function error(err) {
             // be aware that an error can occur for different reasons
             // while saving billing info in the gateway or directly
-            // on the Chargify backend. It is rare but still possible.
+            // on the backend. It is rare but still possible.
             // Remember to make the user aware the presence of an error
             console.log('token ERROR - err: ', err);
         }
@@ -252,7 +252,7 @@ affected by different failures than our primary app.
 Specific technical considerations to be aware of:
 
 * TLS is terminated by Cloudfront using the `TLSv1.2_2018` config.  TLS 1.0 and TLS 1.1 are not supported.  The full cipher suite list is [available from AWS](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/secure-connections-supported-viewer-protocols-ciphers.html#secure-connections-supported-ciphers)
-* Utilizes SNI for TLS, which can result in lower compatibility with browsers than the Chargify application. Akamai has [published a study](https://blogs.akamai.com/2017/03/reaching-toward-universal-tls-sni.html) describing the evolution of browser support for SNI and it is very high, but not perfect.
+* Utilizes SNI for TLS, which can result in lower compatibility with browsers than the Advanced Billing application. Akamai has [published a study](https://blogs.akamai.com/2017/03/reaching-toward-universal-tls-sni.html) describing the evolution of browser support for SNI and it is very high, but not perfect.
 * Supports HTTP/2, HTTP/1.1, HTTP/1.0
 * Through the use of AWS Cloudfront, `https://js.chargify.com` is designed for maximum reliability and speed, but is not covered by our SLA, uptime, or performance guarantees.
 
@@ -298,13 +298,13 @@ To make use of this functionality, do not include any of the address iframe fiel
 
 ## Security
 
-Using Chargify.js, you are able to tokenize cards with Chargify and your gateway. Since most of our gateways also perform a "card validation" as a part of tokenization, you should take measures to protect the use of your Chargify.js forms from bad actors with the intent of mass-validating stolen card credentials.
+Using Chargify.js, you are able to tokenize cards with Advanced Billing and your gateway. Since most of our gateways also perform a "card validation" as a part of tokenization, you should take measures to protect the use of your Chargify.js forms from bad actors with the intent of mass-validating stolen card credentials.
 
-By default Chargify offers a layer of fraud prevention on the tokenization endpoint that works silently to protect your tokenization endpoint. Additionally, your gateway may provide fraud detection tools that will guard against unwanted card tokenization/verification.
+By default Advanced Billing offers a layer of fraud prevention on the tokenization endpoint that works silently to protect your tokenization endpoint. Additionally, your gateway may provide fraud detection tools that will guard against unwanted card tokenization/verification.
 
-In addition to these tools, Chargify offers you configuration to improve the security of your Chargify.js form submissions. Our "security token" allows you to sign your official form submission using a private key shared between yourself and Chargify, and our configuration allows you to choose your tolerance for repeated form submissions.
+In addition to these tools, Advanced Billing offers you configuration to improve the security of your Chargify.js form submissions. Our "security token" allows you to sign your official form submission using a private key shared between yourself and Advanced Billing, and our configuration allows you to choose your tolerance for repeated form submissions.
 
-By its very nature, Chargify.js allows end-users to submit cardholder data directly from their client environment to the Chargify servers. You are purposefully cut out of the loop of the tokenization process. You must later make a server-to-server API request to make use of the token, which is protected by your API key(s). So, remember, that the purpose of these security measures are to reduce the ability of a hacker to tokenize cards in a bulk fashion, and does not affect the act of subscription creation or token use - the latter is already protected by the use of your protected API keys.
+By its very nature, Chargify.js allows end-users to submit cardholder data directly from their client environment to the Advanced Billing servers. You are purposefully cut out of the loop of the tokenization process. You must later make a server-to-server API request to make use of the token, which is protected by your API key(s). So, remember, that the purpose of these security measures are to reduce the ability of a hacker to tokenize cards in a bulk fashion, and does not affect the act of subscription creation or token use - the latter is already protected by the use of your protected API keys.
 
 ### Security Token
 

@@ -4,15 +4,15 @@ tags: [Getting Started]
 
 # Sites/Subdomains
 
-Learn how to use sites to organize your business and provide the setup necessary to interact with Chargify via the API. If you need help after reading this, please [let us know](./Overview.md#support) so we can help and also improve this documentation.
+Learn how to use sites to organize your business and provide the setup necessary to interact with Advanced Billing via the API. If you need help after reading this, please [let us know](./Overview.md#support) so we can help and also improve this documentation.
 
 ----------
 
-When you are new to Chargify, we will create your first site for you after you choose a currency. Sites are simply "containers" for your products, customers, and subscriptions. You can use Chargify with just one site, although most merchants will want two sites at a minimum – one for **testing** and one for **production.**
+When you are new to Advanced Billing, we will create your first site for you after you choose a currency. Sites are simply "containers" for your products, customers, and subscriptions. You can use Chargify with just one site, although most merchants will want two sites at a minimum – one for **testing** and one for **production.**
 
 ## Site Access
 
-To manage your sites, [login to Chargify](https://app.chargify.com/login) and view your sites.
+To manage your sites, [login to Advanced Billing](https://app.chargify.com/login) and view your sites.
 
 From here you can:
 
@@ -54,7 +54,7 @@ Clearing your site data can be done in the following methods:
 
 ### Clearing via Website
 
-To clear your site data via the website, please see the [following](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405428327309).
+To clear your site data via the website, please see the [help article, "Clearing Site Data"](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405428327309).
 
 ### Clearing via API
 
@@ -65,6 +65,8 @@ curl -u <API_KEY>:X -H Accept:application/json -X POST https://acme.chargify.com
 ```
 
 For more information about the parameters for clearing your site data using the API, please see the [API documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgyNjk-clear-site-data).
+
+----------
 
 # Next Steps
 

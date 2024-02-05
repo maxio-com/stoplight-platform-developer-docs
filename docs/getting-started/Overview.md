@@ -4,22 +4,16 @@ tags: [Getting Started]
 
 # Overview
 
-Welcome to the Chargify Developer Portal. This documentation will help you get started. If you have any questions, please let us know.
+Welcome to the Maxio Advanced Billing Developer Portal. Maxio Advanced Billing is powered by our Chargify technology stack. Our Chargify APIs and webhooks enable our customers to easily build automated sign-up, billing, and subscription workflows integrated with their applications.
 
-## Not A Developer?
-
-A custom Chargify integration requires general programming/developer skills. If you are a developer, that’s great - this documentation is for you. If not, you can either hire a developer (or direct developers you employ to this documentation) or you can use our resources that are meant for non-developers like our help documentation or integrations.
-
-- [Developer Consultants](https://www.chargify.com/consultants/)
-- [Help Documentation](https://maxio-chargify.zendesk.com/hc/en-us#availability)
-- [Integrations](../ecosystem/Ecosystem.md#integrations)
-
+This documentation will help you get started. If you have any questions, please let us know.
 
 ## Getting Help & Support
 
 We are available 12am-12am CT Monday - Friday, excluding holidays.
 
 - [Contact our sales team](mailto:sales@maxio.com)
+- [Send an email to support](mailto:support@maxio.com)
 - [Open a support ticket](https://maxio-chargify.zendesk.com/hc/en-us/requests/new)
-- [Send an email to support](mailto:support@chargify.com)
-- [Twitter](https://twitter.com/WeAreMaxio)
+- [Search our help documentation](https://maxio-chargify.zendesk.com/hc/en-us#availability)
+- [Visit us on Twitter](https://twitter.com/WeAreMaxio)

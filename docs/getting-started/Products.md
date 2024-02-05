@@ -12,7 +12,7 @@ With regards to products, there are three important aspects that are required fo
 * Creating the [product family](#product-family)
 * Creating the [product](#product)
 
-Before delving into this section, we recommend reviewing our [product documentation](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction) located in the main section of the Chargify help documents. 
+Before delving into this section, we recommend reviewing our ["Products Introduction" help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction). 
 
 ## Product Family
 
@@ -46,15 +46,15 @@ A simple curl example would be the following:
 curl -u <API_KEY>:X -H Accept:application/json -d @product_family.json -X POST https://<SUBDOMAIN>.chargify.com/product_families.json
 ```
 
-To create a product family using the application, please see the following documentation: [Creating Product Families](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction#product-families)
+To create a product family using the application, refer to the ["Creating Product Families" help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405561405709-Products-Introduction#product-families) for more information.
 
-Please see [API Documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) for complete listing of input/output schema along with code examples in multiple programming languages.
+Please see [API Documentation](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) for a complete listing of input/output schema, along with code examples in multiple programming languages.
 
 ## Product
 
-In Chargify, you sell Subscriptions to your Products. You must first create and configure a Product before you can sell anything to a Customer. Products are administered on a Site-by-Site basis, on the main “Products” tab.
+In Advanced Billing, you sell Subscriptions to your Products. You must first create and configure a Product before you can sell anything to a Customer. Products are administered on a Site-by-Site basis, on the main “Products” tab.
 
-In your app or business, you might call these Products your “Plans” or “Feature Levels”. For example, if you have “Basic”, “Pro”, and “Max” plans, each of these would be a separate Product within Chargify.
+In your app or business, you might call these Products your “Plans” or “Feature Levels”. For example, if you have “Basic”, “Pro”, and “Max” plans, each of these would be a separate Product within Advanced Billing.
 
 You can create a product using the API, like so:
 
@@ -77,6 +77,7 @@ You can create a product using the API, like so:
 
 That data should be posted to the [Product Create](https://developers.chargify.com/docs/api-docs/b3A6MTQxMDgzMzY-create-product) API Endpoint.
 
+----------
 
 # Next Steps
 
