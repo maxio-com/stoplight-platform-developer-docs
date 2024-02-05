@@ -12,26 +12,26 @@ Please note that these samples were graciously given to us by our users, so we d
 
 ## PHP
 
-- [https://github.com/chargely/chargify-sdk-php](https://github.com/chargely/chargify-sdk-php): A PHP API wrapper, from the makers of Chargely
-- [http://github.com/abraham/chargify](http://github.com/abraham/chargify) Sample PHP app by Abraham Williams. http://abrah.am, @abraham
-- [http://github.com/jforrest/Chargify-PHP-Client](http://github.com/jforrest/Chargify-PHP-Client): A PHP API wrapper from Jason at RigBooks
+- [https://github.com/chargely/chargify-sdk-php](https://github.com/chargely/chargify-sdk-php): A PHP API wrapper, from the makers of Chargely.
+- [http://github.com/abraham/chargify](http://github.com/abraham/chargify) Sample PHP app by Abraham Williams. http://abrah.am, @abraham.
+- [http://github.com/jforrest/Chargify-PHP-Client](http://github.com/jforrest/Chargify-PHP-Client): A PHP API wrapper from Jason at RigBooks.
 - [http://github.com/lewsid/chargify_api_php](http://github.com/lewsid/chargify_api_php): A PHP API wrapper by one of our active beta testers.
-- [https://github.com/ChargeIgniter/ChargeIgniter](https://github.com/ChargeIgniter/ChargeIgniter): CodeIgniter PHP code by Kyle Anderson
+- [https://github.com/ChargeIgniter/ChargeIgniter](https://github.com/ChargeIgniter/ChargeIgniter): CodeIgniter PHP code by Kyle Anderson.
 
 ## Ruby/Rails
 
 - [http://github.com/chargify/chargify_api_ares](http://github.com/chargify/chargify_api_ares): This is a community maintained gem that is managed by the Advanced Billing team. Contributions are welcome! It uses ActiveResource, works well with Rails, and is a good option for easy integration.
-- [http://github.com/pengwynn/chargify](http://github.com/pengwynn/chargify): This is a Advanced Billing gem that uses HTTParty. It was created by @pengwynn, who is one of our active beta testers. It has tests by using a Chargify “mock”.
-- [http://github.com/jsmestad/chargify](http://github.com/jsmestad/chargify): This is a Advanced Billing gem by @jsmestad, another of our active users.
+- [http://github.com/pengwynn/chargify](http://github.com/pengwynn/chargify): This is an Advanced Billing gem that uses HTTParty. It was created by @pengwynn, who is one of our active beta testers. It has tests by using a Chargify “mock”.
+- [http://github.com/jsmestad/chargify](http://github.com/jsmestad/chargify): This is an Advanced Billing gem by @jsmestad, another of our active users.
 
 ## Python/Django
 
-- [http://github.com/gdoermann/django-chargify](http://github.com/gdoermann/django-chargify): A Django wrapper for Advanced Billing by @gdoermann
+- [http://github.com/gdoermann/django-chargify](http://github.com/gdoermann/django-chargify): A Django wrapper for Advanced Billing by @gdoermann.
 - [http://github.com/getyouridx/pychargify](http://github.com/getyouridx/pychargify): A Python API wrapper by one of our active beta testers.
 
 ## .NET
 
-- [https://github.com/kfrancis/chargify-dot-net](https://github.com/kfrancis/chargify-dot-net): A .NET API wrapper and complete sample app by one of our own (Kori Francis, @korifrancis)
+- [https://github.com/kfrancis/chargify-dot-net](https://github.com/kfrancis/chargify-dot-net): A .NET API wrapper and complete sample app by one of our own (Kori Francis, @korifrancis).
 
 ## Java/Scala
 
@@ -39,4 +39,4 @@ Please note that these samples were graciously given to us by our users, so we d
 
 ## JavaScript
 
-- [https://github.com/natevw/node-chargify](https://github.com/natevw/node-chargify): A simple node.js wrapper for the Advanced Billing REST API, by (Nathan Vander Wilt, @natevw)
+- [https://github.com/natevw/node-chargify](https://github.com/natevw/node-chargify): A simple node.js wrapper for the Advanced Billing REST API, by (Nathan Vander Wilt, @natevw).
