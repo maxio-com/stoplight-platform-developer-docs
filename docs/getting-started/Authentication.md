@@ -13,7 +13,7 @@ There are two methods of authentication, depending on what you are accessing:
 * [Chargify API](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api) 
 * [Chargify.js](./ZG9jOjE0NjAzNDI0-overview)
 
-Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see ["Obtaining Credentials"](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404829390349-Users#users-0-0).
+Both methods of authentication assume you have previously generated API keys securely stored them for later use. For more information, see [this article on Adding Users](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404829390349-Users#adding-users).
 
 ## API
 
