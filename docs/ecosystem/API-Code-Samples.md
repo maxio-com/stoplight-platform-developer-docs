@@ -8,7 +8,7 @@ The following sample code has been contributed by our community of developers to
 
 If you have usage examples or code libraries in other languages, please let us know.
 
-Please note that these samples were graciously given to us by our users, so we don’t offer official support for them. Of course, we help where we can, but our internal knowledge is Ruby. Most of the people who made the code are happy to help, and some of them can easily be reached on Twitter.
+Please note that these samples were graciously given to us by our users, so we don’t offer official support for them. Of course, we help where we can, but our internal knowledge is Ruby. Most of the people who made the code are happy to help, and some of them can easily be reached on [Twitter](https://twitter.com/WeAreMaxio).
 
 ## PHP
 
