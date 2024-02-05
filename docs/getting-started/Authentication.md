@@ -39,6 +39,8 @@ curl --request GET \
   --header 'content-type: application/json'
 ```
 
+❗️ Please note, the API is case-sensitive.
+
 For more information about API authentication, please see our [API documentation/example](https://developers.chargify.com/docs/api-docs/YXBpOjE0MTA4MjYx-chargify-api#authentication).
 
 ----------
