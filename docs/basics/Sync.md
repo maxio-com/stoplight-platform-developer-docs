@@ -12,7 +12,7 @@ There are three basic methods of either allowing or notifying your application a
 
 - Using the [API](#api) to retrieve subscription information
 - Recieving [webhooks](#receiving-a-webhook-notification)
-- Manually [export](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404681593741-Exporting-Data#export-time-length)
+- Manually [export](https://maxio-chargify.zendesk.com/hc/en-us/articles/5404681593741-Exporting-Data#locating-exports)
 
 ## API
 
