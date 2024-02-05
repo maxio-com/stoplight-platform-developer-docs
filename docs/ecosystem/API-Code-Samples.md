@@ -17,7 +17,6 @@ Please note that these samples were graciously given to us by our users, so we d
 - [http://github.com/jforrest/Chargify-PHP-Client](http://github.com/jforrest/Chargify-PHP-Client): A PHP API wrapper from Jason at RigBooks
 - [http://github.com/lewsid/chargify_api_php](http://github.com/lewsid/chargify_api_php): A PHP API wrapper by one of our active beta testers.
 - [https://github.com/ChargeIgniter/ChargeIgniter](https://github.com/ChargeIgniter/ChargeIgniter): CodeIgniter PHP code by Kyle Anderson
-- [https://github.com/litwicki/chargify-bundle](https://github.com/litwicki/chargify-bundle): API and Chargify Direct integration for Symfony/Laravel apps by Jake Litwicki, @jakelitwicki
 
 ## Ruby/Rails
 
@@ -33,7 +32,6 @@ Please note that these samples were graciously given to us by our users, so we d
 ## .NET
 
 - [https://github.com/kfrancis/chargify-dot-net](https://github.com/kfrancis/chargify-dot-net): A .NET API wrapper and complete sample app by one of our own (Kori Francis, @korifrancis)
-- [https://github.com/kfrancis/Chargify2](https://github.com/kfrancis/Chargify2): A .NET port of the Chargify Direct Advanced Billing wrapper by Kori Francis.
 
 ## Java/Scala
 
