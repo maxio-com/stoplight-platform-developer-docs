@@ -200,7 +200,7 @@ If you want to display each field in a separate iframe, or to group a collection
 
 If your business is subject to the PSD2 requirements in Europe and you are using Chargify.js as part of your signup flow, changes may be required on your form. Post authentication gateways (e.g. Stripe) require no additional configuration on the Chargify.js form.
 
-For all other supported gateways (Cybersource, Windcave, Braintree, Adyen), add the field `threeDSecure: true` to your Chargify load function. Please review our testing 3DS documentation for an overview of how the workflow will look for your gateway.
+For all other supported gateways (Cybersource, Windcave, Braintree, Adyen), add the field `threeDSecure: true` to your load function. Please review our testing 3DS documentation for an overview of how the workflow will look for your gateway.
 
 You can pass a callback function to the load function to be callled when Chargify.js encounters an error when loading a 3DS configuration.
 
