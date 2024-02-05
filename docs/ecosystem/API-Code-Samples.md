@@ -36,7 +36,7 @@ Please note that the following samples were graciously given to us by our users,
 ### Ruby/Rails
 
 - [http://github.com/chargify/chargify_api_ares](http://github.com/chargify/chargify_api_ares): This is a community maintained gem that is managed by the Advanced Billing team. Contributions are welcome! It uses ActiveResource, works well with Rails, and is a good option for easy integration.
-- [http://github.com/pengwynn/chargify](http://github.com/pengwynn/chargify): This is an Advanced Billing gem that uses HTTParty. It was created by @pengwynn, who is one of our active beta testers. It has tests by using a Chargify “mock”.
+- [http://github.com/pengwynn/chargify](http://github.com/pengwynn/chargify): This is an Advanced Billing gem that uses HTTParty. It was created by @pengwynn, who is one of our active beta testers. It has tests by using an Advanced Billing “mock”.
 - [http://github.com/jsmestad/chargify](http://github.com/jsmestad/chargify): This is an Advanced Billing gem by @jsmestad, another of our active users.
 
 ### Python/Django
