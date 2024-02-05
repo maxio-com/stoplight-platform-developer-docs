@@ -8,7 +8,7 @@ Learn how to use sites to organize your business and provide the setup necessary
 
 ----------
 
-When you are new to Advanced Billing, we will create your first site for you after you choose a currency. Sites are simply "containers" for your products, customers, and subscriptions. You can use Chargify with just one site, although most merchants will want two sites at a minimum – one for **testing** and one for **production.**
+When you are new to Advanced Billing, we will create your first site for you after you choose a currency. Sites are simply "containers" for your products, customers, and subscriptions. You can use Advanced Billing with just one site, although most merchants will want two sites at a minimum – one for **testing** and one for **production.**
 
 ## Site Access
 
