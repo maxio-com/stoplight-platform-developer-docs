@@ -11,4 +11,4 @@ Starting Feb 2024, Maxio offers Advanced Billing-managed SDKs to support the fol
  + [Java](https://central.sonatype.com/artifact/com.maxio/advanced-billing-sdk)
  + [Go(Alpha)](https://pkg.go.dev/github.com/maxio-com/ab-golang-sdk@v1.0.0-alpha.1)
  
-Maxio's managed SDKs are a commitment to evolve and remove the friction in the developer experience (DX). We are excited to announce that with these Software Development Kits (SDKs) sellers can extend Maxio’s functionality to meet the desired level of integration. Decision-makers will be empowered to run a 15-minute evaluation.   
+Maxio's managed SDKs are a commitment to evolve and remove the friction in the Developer Experience (DX). We are excited to announce that with these Software Development Kits (SDKs), sellers can extend Maxio’s functionality to meet the desired level of integration. Decision-makers will be empowered to run a 15-minute evaluation.   
