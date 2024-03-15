@@ -25,7 +25,9 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2024-03-14** **latest**
+* **2024-03-15** **latest**
+  * [feature] Add support for PayPal Complete gateway
+* **2024-03-14**
   * [internal] Make billing address optional for ACH with Maxio Payments
 * **2024-02-29**
   * [internal] Stripe BACS support
