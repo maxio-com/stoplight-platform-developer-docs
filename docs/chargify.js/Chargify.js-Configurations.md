@@ -737,6 +737,24 @@ This will add a 3px red border when you put your cursor in the input field (this
 | zip               | `12345` | Required | The bank account billing address zip code. |
 | country           | `AU` | Required | The bank account billing address country, in ISO 3166-1 alpha-2 format. |
 
+### Direct Debit Fields (when you use Stripe gateway for BACS Direct Debit)
+
+| Field name        | Example | Required | Description |
+| ----------------- | ------- | -------- | ----------- |
+| firstName         | `Joe` | Required | First name on bank account |
+| lastName          | `Doe` | Required | Last name on bank account |
+| email | `joe@chargify.test` | Required for Becs NZ scheme only | The customer's email |
+| bankName          | `Test Bank` | Required | The name of the bank where the customer’s account resides |
+| branchCode          | `108800` | Required | Sort Code |
+| accountNumber          | `00012345` | Required | Account Number |
+| accountHolderType | `personal` | Required | may be `personal` (default) or `business` |
+| address           | `123 Main St.` | Required | The bank account billing street address (i.e. 123 Main St.). This value is merely passed through to the payment gateway |
+| address2          | `Apt. 100` | Optional | Second line of the customer’s billing address |
+| city              | `London` | Required | The bank account billing address city. |
+| state             | `LND` | Required | The bank account billing address state, in 2 or 3-letter format. |
+| zip               | `12345` | Required | The bank account billing address zip code. |
+| country           | `GB` | Required | The bank account billing address country, in ISO 3166-1 alpha-2 format. |
+
 ### Apple Pay Fields
 
 | Field name | Example | Required | Description |
@@ -762,4 +780,3 @@ This will add a 3px red border when you put your cursor in the input field (this
 | state      | `MA` | Optional (may be required by your gateway settings) | The credit card billing address state, preferably in 2-letter format. This value is merely passed through to the payment gateway |
 | zip        | `12345` | Optional (may be required by your gateway settings) | The credit card billing address zip code. This value is merely passed through to the payment gateway |
 | country    | `US` | Optional (may be required by your gateway settings) | The credit card billing address country, preferably in ISO 3166-1 alpha-2 format. This value is merely passed through to the payment gateway. Some gateways require country codes in a specific format. Please check your gateway’s documentation |
-
