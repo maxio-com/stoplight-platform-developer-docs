@@ -27,7 +27,7 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ## Release History
 * **2024-04-30** **latest**
   * [bugfix] Fix ApplePay payment method
-* **2024-03-15** **latest**
+* **2024-03-15**
   * [feature] Add support for PayPal Complete gateway
 * **2024-03-14**
   * [internal] Make billing address optional for ACH with Maxio Payments
