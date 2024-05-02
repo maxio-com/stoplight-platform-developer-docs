@@ -390,7 +390,6 @@ For more information on Stripe Direct Debit, please see the following resources:
 + [Stripe Direct Debit introduction](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405050826765)
 + Using Stripe SEPA Direct Debit via API for creating [subscriptions](https://developers.maxio.com/docs/api-docs/d571659cf0f24-create-subscription#subscription-using-stripe-sepa-direct-debit) and/or [payment profiles](https://developers.maxio.com/docs/api-docs/1f10a4f170405-create-payment-profile#sepa-direct-debit)
 + Using Stripe BECS Direct Debit via API for creating [subscriptions](https://developers.maxio.com/docs/api-docs/d571659cf0f24-create-subscription#subscription-using-stripe-becs-direct-debit) and/or [payment profiles](https://developers.maxio.com/docs/api-docs/1f10a4f170405-create-payment-profile#stripe-becs-direct-debit)
-+ Using Stripe BACS Direct Debit via API for creating [subscriptions](https://developers.maxio.com/docs/api-docs/d571659cf0f24-create-subscription#subscription-using-stripe-bacs-direct-debit) and/or [payment profiles](https://developers.maxio.com/docs/api-docs/1f10a4f170405-create-payment-profile#stripe-bacs-direct-debit)
 
 ```javascript
 <script>
@@ -1782,7 +1781,6 @@ The following example contains a minimalist approach to working with Chargify.js
 For more information on Stripe Direct Debit, please see the following resources:
 
 + [Stripe Direct Debit introduction help article](https://maxio-chargify.zendesk.com/hc/en-us/articles/5405050826765)
-+ Using Stripe BACS Direct Debit via API for creating [subscriptions](https://developers.maxio.com/docs/api-docs/d571659cf0f24-create-subscription#subscription-using-stripe-bacs-direct-debit) and/or [payment profiles](https://developers.maxio.com/docs/api-docs/1f10a4f170405-create-payment-profile#stripe-bacs-direct-debit)
 
 ```javascript
 var chargify = new Chargify();
