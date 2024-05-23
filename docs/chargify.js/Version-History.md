@@ -25,7 +25,7 @@ integration, or implement a Content Security Policy (CSP).  Example:
 ❗️ We will support previous releases of Chargify.js for a maximum time frame of 6 months. If you use an explicitly versioned path of Chargify.js, you must commit to updating your integration regularly.  Versions older than 6 months will be unsupported and may be removed without notice.
 
 ## Release History
-* **2024-04-30** **latest**
+* **2024-05-23** **latest**
   * [feature] GoCardless ACH Integration 
 * **2024-04-30** 
   * [bugfix] Fix ApplePay payment method
