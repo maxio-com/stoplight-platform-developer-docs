@@ -26,6 +26,8 @@ integration, or implement a Content Security Policy (CSP).  Example:
 
 ## Release History
 * **2024-04-30** **latest**
+  * [feature] GoCardless ACH Integration 
+* **2024-04-30** 
   * [bugfix] Fix ApplePay payment method
 * **2024-03-15**
   * [feature] Add support for PayPal Complete gateway
