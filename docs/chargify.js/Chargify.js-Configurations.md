@@ -52,6 +52,7 @@ chargify.load({
 
     // Use auto-populated dropdowns instead of plain text fields
     addressDropdowns: true,
+    creditCardExpirationDateDropdowns: true,
 
     // optional unless your site uses multi-currency with BlueSnap gateway
     currency: 'USD,
@@ -509,6 +510,7 @@ Returned card types: `american-express`, `diners`, `diners-club`, `discover`, `j
 | selectorForPayPalButton | `#pay-pal` | Required for PayPal | The selector for the PayPal button. |
 | deviceData | `true` | Required to use Braintree Advanced Fraud Protection feature | Enables collecting Device Data information as part of the Braintree Advanced Fraud Protection feature. |
 | addressDropdowns | `true` | Optional, not supported for GoCardless | Renders country and state fields as dropdowns instead of plain text fields. |
+| creditCardExpirationDateDropdowns | `true` | Optional, not supported for GoCardless | Renders credit card expiration month and year as dropdowns instead of plain text fields. |
 | currency | `USD` | Optional | Choose which currency do you want to use. You should set this when your site uses multi-currency and BlueSnap as the gateway or when you site uses multi-currency and you use Stripe gateway for Direct Debit. |
 
 
